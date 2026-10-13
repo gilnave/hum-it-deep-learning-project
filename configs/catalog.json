@@ -1,0 +1,817 @@
+{
+  "schema_version": 1,
+  "name": "chad_aligned_song_catalog",
+  "catalog_root": "../data/catalog",
+  "songs": [
+    {
+      "song_id": "08a58e67791f0d3a",
+      "title": "24kGoldn - Mood",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/06 - 24kGoldn - Mood (Official Video) ft. iann dior.mp3"
+    },
+    {
+      "song_id": "8da26c7bee72d22c",
+      "title": "Adele - Rolling in the Deep",
+      "split": "validation",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/027 - Adele - Rolling in the Deep (Official Music Video).mp3"
+    },
+    {
+      "song_id": "3f70d942b6a7b11b",
+      "title": "Adele - Someone Like You",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/039 - Adele - Someone Like You (Official Music Video).mp3"
+    },
+    {
+      "song_id": "7b53db016956f66a",
+      "title": "Alan Walker - Faded",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/011 - Alan Walker - Faded.mp3"
+    },
+    {
+      "song_id": "af196e65df8d7449",
+      "title": "Amy Winehouse - Back To Black",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2000s/074 - Amy Winehouse - Back To Black.mp3"
+    },
+    {
+      "song_id": "c14cfa8dd3541e74",
+      "title": "Ariana Grande - 7 rings",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/080 - Ariana Grande - 7 rings (Official Video).mp3"
+    },
+    {
+      "song_id": "e221ef0434472a07",
+      "title": "Ariana Grande - One Last Time",
+      "split": "train",
+      "audio": "2000s-2010s songs/056 - Ariana Grande - One Last Time (Official Lyric Video).mp3"
+    },
+    {
+      "song_id": "e427891242803ddc",
+      "title": "Ariana Grande - Side To Side",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/041 - Ariana Grande ft. Nicki Minaj - Side To Side (Official Video) ft. Nicki Minaj.mp3"
+    },
+    {
+      "song_id": "349a7f026589b0e1",
+      "title": "Ava Max - Kings & Queens",
+      "split": "validation",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/32 - Ava Max - Kings & Queens [Official Music Video].mp3"
+    },
+    {
+      "song_id": "1e8b9836678891ac",
+      "title": "Beyoncé - Halo",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2000s/056 - Beyoncé - Halo.mp3"
+    },
+    {
+      "song_id": "fd7aa18fdda2bc7a",
+      "title": "Billie Eilish - everything i wanted",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/49 - Billie Eilish - everything i wanted.mp3"
+    },
+    {
+      "song_id": "85ba345284db94e4",
+      "title": "Billie Eilish - Therefore I Am",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/24 - Billie Eilish - Therefore I Am (Official Music Video).mp3"
+    },
+    {
+      "song_id": "3ace94d493c2cedd",
+      "title": "Billie Eilish, Khalid - lovely",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/042 - Billie Eilish, Khalid - lovely.mp3"
+    },
+    {
+      "song_id": "85d3367e3623f426",
+      "title": "BTS - Dynamite",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/56 - BTS - Dynamite (Official MV).mp3"
+    },
+    {
+      "song_id": "be33452a171fc704",
+      "title": "Charlie Puth - We Don't Talk Anymore",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/013 - Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) [Official Video].mp3"
+    },
+    {
+      "song_id": "0f49946df4f06c48",
+      "title": "Coldplay - Hymn For The Weekend",
+      "split": "train",
+      "audio": "2000s-2010s songs/146 - Coldplay - Hymn for the Weekend.mp3"
+    },
+    {
+      "song_id": "a99a50e96d5dfcbd",
+      "title": "Coldplay - The Scientist",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2000s/075 - Coldplay - The Scientist (Official 4K Video).mp3"
+    },
+    {
+      "song_id": "e9e9b09b0e5cca4c",
+      "title": "Coldplay - Viva La Vida",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2000s/012 - Coldplay - Viva La Vida (Official Video).mp3"
+    },
+    {
+      "song_id": "b8cada8759816264",
+      "title": "Daft Punk - Get Lucky",
+      "split": "validation",
+      "audio": "2000s-2010s songs/034 - Daft Punk - Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers.mp3"
+    },
+    {
+      "song_id": "30201cbd7ed8cb44",
+      "title": "Doja Cat - Say So",
+      "split": "test",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/17 - Doja Cat - Say So (Official Video).mp3"
+    },
+    {
+      "song_id": "9ce5dc54e4627eac",
+      "title": "Dua Lipa - Break My Heart",
+      "split": "test",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/15 - Dua Lipa - Break My Heart (Official Video).mp3"
+    },
+    {
+      "song_id": "f4a41129183ce1ee",
+      "title": "Dua Lipa - Don't Start Now",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/07 - Dua Lipa - Don't Start Now (Official Music Video).mp3"
+    },
+    {
+      "song_id": "df58dcb218251f87",
+      "title": "Dua Lipa - Levitating",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/03 - Dua Lipa - Levitating (Official Animated Music Video).mp3"
+    },
+    {
+      "song_id": "b355790b3c061feb",
+      "title": "Ed Sheeran - Photograph",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/087 - Ed Sheeran - Photograph (Official Music Video).mp3"
+    },
+    {
+      "song_id": "07ac578a0df05186",
+      "title": "Gorillaz - Feel Good Inc.",
+      "split": "train",
+      "audio": "2000s-2010s songs/033 - Gorillaz - Feel Good Inc..mp3"
+    },
+    {
+      "song_id": "516f270b0bae7964",
+      "title": "Harry Styles - Adore You",
+      "split": "validation",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/04 - Harry Styles - Adore You (Official Video).mp3"
+    },
+    {
+      "song_id": "201823d912f1ba75",
+      "title": "Hozier - Take Me To Church",
+      "split": "train",
+      "audio": "2000s-2010s songs/006 - Hozier - Take Me To Church.mp3"
+    },
+    {
+      "song_id": "89cf9b29900af042",
+      "title": "James Arthur - Say You Won't Let Go",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/064 - James Arthur - Say You Won't Let Go.mp3"
+    },
+    {
+      "song_id": "3ad961fe25c19d6b",
+      "title": "Justin Bieber & benny blanco - Lonely",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/53 - Justin Bieber & benny blanco - Lonely (Official Music Video).mp3"
+    },
+    {
+      "song_id": "04154c76eacfde72",
+      "title": "Justin Bieber - Holy",
+      "split": "test",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/36 - Justin Bieber - Holy ft. Chance The Rapper.mp3"
+    },
+    {
+      "song_id": "4cd21015903bf14d",
+      "title": "Justin Bieber - Intentions",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/25 - Justin Bieber - Intentions (Official Video (Short Version)) ft. Quavo.mp3"
+    },
+    {
+      "song_id": "cf52c767c41e80da",
+      "title": "Justin Bieber - Sorry",
+      "split": "validation",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/007 - Justin Bieber - Sorry (PURPOSE ： The Movement).mp3"
+    },
+    {
+      "song_id": "4dea0650c9006e12",
+      "title": "Justin Timberlake - CAN'T STOP THE FEELING!",
+      "split": "validation",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/059 - Justin Timberlake - CAN'T STOP THE FEELING! (from DreamWorks Animation's ＂TROLLS＂) (Official Video).mp3"
+    },
+    {
+      "song_id": "63a40b2f629ae751",
+      "title": "Katy Perry - I Kissed A Girl",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2000s/023 - Katy Perry - I Kissed A Girl (Official Music Video).mp3"
+    },
+    {
+      "song_id": "177e8aabddb3c351",
+      "title": "Kylie Minogue - Can't Get You Out Of My Head",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2000s/054 - Kylie Minogue - Can't Get You Out Of My Head (HD).mp3"
+    },
+    {
+      "song_id": "210592425c38ddb2",
+      "title": "Lady Gaga - Bad Romance",
+      "split": "train",
+      "audio": "2000s-2010s songs/099 - Lady Gaga - Bad Romance (Official Music Video).mp3"
+    },
+    {
+      "song_id": "d72ef45bbe6136dd",
+      "title": "Lady Gaga - Poker Face",
+      "split": "train",
+      "audio": "2000s-2010s songs/100 - Lady Gaga - Poker Face (Official Music Video).mp3"
+    },
+    {
+      "song_id": "f482c164208df979",
+      "title": "Lady Gaga, Bradley Cooper - Shallow",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/065 - Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video).mp3"
+    },
+    {
+      "song_id": "9208d15658afce44",
+      "title": "Lewis Capaldi - Before You Go",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/10 - Lewis Capaldi - Before You Go (Official Video).mp3"
+    },
+    {
+      "song_id": "67325541ea97ef8b",
+      "title": "Lewis Capaldi - Someone You Loved",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/55 - Lewis Capaldi - Someone You Loved.mp3"
+    },
+    {
+      "song_id": "7cdec4d651d13e21",
+      "title": "Lukas Graham - 7 Years",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/071 - Lukas Graham - 7 Years [Official Music Video].mp3"
+    },
+    {
+      "song_id": "4df558a499ae9d9d",
+      "title": "Mark Ronson - Uptown Funk",
+      "split": "train",
+      "audio": "2000s-2010s songs/013 - Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars.mp3"
+    },
+    {
+      "song_id": "290a216cf9f63943",
+      "title": "Maroon 5 - Girls Like You",
+      "split": "validation",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/010 - Maroon 5 - Girls Like You ft. Cardi B (Official Music Video).mp3"
+    },
+    {
+      "song_id": "16715abbd4e1fd2b",
+      "title": "Maroon 5 - Memories",
+      "split": "validation",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/26 - Maroon 5 - Memories (Official Video).mp3"
+    },
+    {
+      "song_id": "60f7e4e0b4467507",
+      "title": "Maroon 5 - Sugar",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/005 - Maroon 5 - Sugar (Official Music Video).mp3"
+    },
+    {
+      "song_id": "ea870e2b360e2512",
+      "title": "Marshmello ft. Bastille - Happier",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/100 - Marshmello ft. Bastille - Happier (Official Music Video).mp3"
+    },
+    {
+      "song_id": "5342a857ef70a424",
+      "title": "Linkin Park - Numb",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2000s/016 - Numb (Official Music Video) [4K UPGRADE] – Linkin Park.mp3"
+    },
+    {
+      "song_id": "e6fe274df9d1b84f",
+      "title": "Post Malone, Swae Lee - Sunflower",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/025 - Post Malone & Swae Lee - Sunflower.mp3"
+    },
+    {
+      "song_id": "2cf17d04acacd9df",
+      "title": "Rihanna - Work",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/088 - Rihanna - Work (Explicit) ft. Drake.mp3"
+    },
+    {
+      "song_id": "fb4b4998dd51aa76",
+      "title": "Selena Gomez - Lose You To Love Me",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/44 - Selena Gomez - Lose You To Love Me (Official Music Video).mp3"
+    },
+    {
+      "song_id": "2dc906df88a96a08",
+      "title": "Shawn Mendes - Treat You Better",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/032 - Shawn Mendes - Treat You Better.mp3"
+    },
+    {
+      "song_id": "5ff3f52c51d16bc2",
+      "title": "Shawn Mendes, Camila Cabello - Señorita",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/061 - Shawn Mendes, Camila Cabello - Señorita.mp3"
+    },
+    {
+      "song_id": "927cb57224703fbe",
+      "title": "Sia - Chandelier",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/026 - Sia - Chandelier (Official Video).mp3"
+    },
+    {
+      "song_id": "17f376ad3004644b",
+      "title": "Tate McRae - you broke me first",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/41 - Tate McRae - you broke me first (Official Video).mp3"
+    },
+    {
+      "song_id": "e313ec5db03a15e7",
+      "title": "Taylor Swift - Blank Space",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/012 - Taylor Swift - Blank Space.mp3"
+    },
+    {
+      "song_id": "ffad5d0b1291e86b",
+      "title": "Taylor Swift - Wildest Dreams",
+      "split": "train",
+      "audio": "2000s-2010s songs/053 - Taylor Swift - Wildest Dreams.mp3"
+    },
+    {
+      "song_id": "0e70fecd7c2d3f50",
+      "title": "The Black Eyed Peas - Where Is The Love? (Official Music Video)",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2000s/039 - The Black Eyed Peas - Where Is The Love？ (Official Music Video).mp3"
+    },
+    {
+      "song_id": "ad069dcabfb1514c",
+      "title": "The Chainsmokers - Don't Let Me Down (Official Video) ft. Daya",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/047 - The Chainsmokers - Don't Let Me Down (Official Video) ft. Daya.mp3"
+    },
+    {
+      "song_id": "ce0e629f24218b45",
+      "title": "The Verve - Bitter Sweet Symphony",
+      "split": "train",
+      "audio": "🎸90's Alternative Rock Classics💯/041 - The Verve - Bitter Sweet Symphony (Extended Version).mp3"
+    },
+    {
+      "song_id": "f1608ba400be14a3",
+      "title": "The Weeknd - Blinding Lights (Official Video)",
+      "split": "train",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/01 - The Weeknd - Blinding Lights (Official Video).mp3"
+    },
+    {
+      "song_id": "a5e8239bbf99a651",
+      "title": "The Weeknd - Starboy ft. Daft Punk (Official Video) ft. Daft Punk",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/031 - The Weeknd - Starboy ft. Daft Punk (Official Video) ft. Daft Punk.mp3"
+    },
+    {
+      "song_id": "dcb7d60a021b8367",
+      "title": "TONES AND I - DANCE MONKEY (OFFICIAL VIDEO)",
+      "split": "test",
+      "audio": "2020s Pop Songs Decade-End Chart (Top 250 Hits)/57 - TONES AND I - DANCE MONKEY (OFFICIAL VIDEO).mp3"
+    },
+    {
+      "song_id": "cf612c3fe57e5656",
+      "title": "twenty one pilots: Heathens (from Suicide Squad: The Album) [OFFICIAL VIDEO]",
+      "split": "train",
+      "audio": "Top 100 Songs of the 2010s Playlist - Best Music Videos Of The 10s Decade/046 - Twenty One Pilots - Heathens (from Suicide Squad： The Album) [OFFICIAL VIDEO].mp3"
+    },
+    {
+      "song_id": "4671ed7fc0e0af29",
+      "title": "Vanessa Carlton - A Thousand Miles",
+      "split": "test",
+      "audio": "Top 100 Songs of the 2000s/059 - Vanessa Carlton - A Thousand Miles.mp3"
+    },
+    {
+      "song_id": "13a42f31a715d1ae",
+      "title": "El Perdón - Nicky Jam y Enrique Iglesias",
+      "split": "train",
+      "audio": "Jahrescharts 2015/046 - 21. El Perdón - Nicky Jam y Enrique Iglesias  (Official Music Video YTMAs).mp3"
+    },
+    {
+      "song_id": "9a201b13a302994c",
+      "title": "Ace of Base - All That She Wants (Official Music Video)",
+      "split": "test",
+      "audio": "Music 80's 90's Hits/089 - Ace of Base - All That She Wants (Official Music Video).mp3"
+    },
+    {
+      "song_id": "12e509b2b3da32e6",
+      "title": "Adele - Send My Love (To Your New Lover)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/165 - Adele - Send My Love (To Your New Lover).mp3"
+    },
+    {
+      "song_id": "b949923b340c505a",
+      "title": "Adele - Skyfall (Official Lyric Video)",
+      "split": "train",
+      "audio": "Movies Soundtrack Songs. Romantic Movie Theme Songs#/005 - Adele - Skyfall (Official Lyric Video).mp3"
+    },
+    {
+      "song_id": "9af20ad8ae0198b5",
+      "title": "Ariana Grande & Justin Bieber - Stuck with U",
+      "split": "train",
+      "audio": "Ariana Grande all Music Videos/53 - Ariana Grande & Justin Bieber - Stuck with U.mp3"
+    },
+    {
+      "song_id": "05315cc83e38919a",
+      "title": "Ariana Grande - break up with your girlfriend, i'm bored (Official Video)",
+      "split": "train",
+      "audio": "Ariana Grande all Music Videos/44 - Ariana Grande - break up with your girlfriend, i'm bored (Official Video).mp3"
+    },
+    {
+      "song_id": "ca65a26ed850b578",
+      "title": "Ariana Grande - breathin",
+      "split": "test",
+      "audio": "Ariana Grande all Music Videos/41 - Ariana Grande - breathin.mp3"
+    },
+    {
+      "song_id": "e2abe3ae051c3cfd",
+      "title": "Ariana Grande - Dangerous Woman (Official Video)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/133 - Ariana Grande - Dangerous Woman (Official Video).mp3"
+    },
+    {
+      "song_id": "e758c44149ef2c7e",
+      "title": "Ariana Grande - God is a woman (Official Video)",
+      "split": "train",
+      "audio": "Ariana Grande all Music Videos/39 - Ariana Grande - God is a woman (Official Video).mp3"
+    },
+    {
+      "song_id": "7209c197c4a4a7d7",
+      "title": "Ariana Grande - thank u, next (Official Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/062 - Ariana Grande - thank u, next (Official Video).mp3"
+    },
+    {
+      "song_id": "460586ec01f5bcc6",
+      "title": "Ava Max - Sweet but Psycho [Official Music Video]",
+      "split": "test",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/066 - Ava Max - Sweet but Psycho [Official Music Video].mp3"
+    },
+    {
+      "song_id": "cd26df8ed3710eca",
+      "title": "benny blanco, Halsey & Khalid – Eastside (official video)",
+      "split": "validation",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/150 - benny blanco, Halsey & Khalid – Eastside (official video).mp3"
+    },
+    {
+      "song_id": "6c39a324c2b66cc1",
+      "title": "Billie Eilish - bad guy",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/061 - Billie Eilish - bad guy.mp3"
+    },
+    {
+      "song_id": "2b960fe77930947c",
+      "title": "Billie Eilish - No Time To Die",
+      "split": "train",
+      "audio": "Movies Soundtrack Songs. Romantic Movie Theme Songs#/006 - Billie Eilish - No Time To Die.mp3"
+    },
+    {
+      "song_id": "0e8353e8fad9ae27",
+      "title": "Billie Eilish - when the party's over",
+      "split": "validation",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/143 - Billie Eilish - when the party's over.mp3"
+    },
+    {
+      "song_id": "d0e4d93b4b60edce",
+      "title": "Calum Scott - You Are The Reason (Official Video)",
+      "split": "test",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/073 - Calum Scott - You Are The Reason (Official Video).mp3"
+    },
+    {
+      "song_id": "7bc11238e392d0fe",
+      "title": "Carly Rae Jepsen - I Really Like You",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/200 - Carly Rae Jepsen - I Really Like You.mp3"
+    },
+    {
+      "song_id": "714352b916c3d0c4",
+      "title": "Coldplay - A Sky Full Of Stars (Official Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/167 - Coldplay - A Sky Full Of Stars (Official Video).mp3"
+    },
+    {
+      "song_id": "06bc653464ccc85c",
+      "title": "Dan + Shay, Justin Bieber - 10,000 Hours (Official Music Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/171 - Dan + Shay, Justin Bieber - 10,000 Hours (Official Music Video).mp3"
+    },
+    {
+      "song_id": "e20d3d8d88b2b1ab",
+      "title": "David Guetta feat Anne-Marie - Don't Leave Me Alone (Official Video)",
+      "split": "train",
+      "audio": "Be alright mix/071 - David Guetta feat Anne-Marie - Don't Leave Me Alone (Official Video).mp3"
+    },
+    {
+      "song_id": "c17e53615e8cec19",
+      "title": "DJ Snake - Let Me Love You (Official Music Video) ft. Justin Bieber",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/028 - DJ Snake - Let Me Love You (Official Music Video) ft. Justin Bieber.mp3"
+    },
+    {
+      "song_id": "6e17166ba3348b34",
+      "title": "Ed Sheeran & Justin Bieber - I Don't Care [Official Music Video]",
+      "split": "test",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/060 - Ed Sheeran & Justin Bieber - I Don't Care [Official Music Video].mp3"
+    },
+    {
+      "song_id": "cb2783faad8f01d6",
+      "title": "Ed Sheeran - Castle On The Hill [Official Music Video]",
+      "split": "validation",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/202 - Ed Sheeran - Castle On The Hill [Official Music Video].mp3"
+    },
+    {
+      "song_id": "4078a6e157465568",
+      "title": "Ed Sheeran - I See Fire (Music Video)",
+      "split": "train",
+      "audio": "Jahrescharts 2015/095 - Ed Sheeran - I See Fire (Music Video).mp3"
+    },
+    {
+      "song_id": "e1f291141a47a088",
+      "title": "Ed Sheeran - Perfect (Official Music Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/005 - Ed Sheeran - Perfect (Official Music Video).mp3"
+    },
+    {
+      "song_id": "63dd1036bfa2bd40",
+      "title": "Ellie Goulding - Love Me Like You Do (Official Video)",
+      "split": "test",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/111 - Ellie Goulding - Love Me Like You Do (Official Video).mp3"
+    },
+    {
+      "song_id": "5c3de9e4394e9a76",
+      "title": "Enya - Only Time (Official 4K Music Video)",
+      "split": "train",
+      "audio": "Movies Soundtrack Songs. Romantic Movie Theme Songs#/089 - Enya - Only Time (Official 4K Music Video).mp3"
+    },
+    {
+      "song_id": "e734e7f38e373b27",
+      "title": "Eurythmics, Annie Lennox, Dave Stewart - Sweet Dreams (Are Made Of This) (Official Video)",
+      "split": "train",
+      "audio": "Music 80's 90's Hits/029 - Eurythmics, Annie Lennox, Dave Stewart - Sweet Dreams (Are Made Of This) (Official Video).mp3"
+    },
+    {
+      "song_id": "2dba3612488eb3fb",
+      "title": "Fetty Wap  - Trap Queen (Official Video) Prod. By Tony Fadd",
+      "split": "train",
+      "audio": "Jahrescharts 2015/248 - Fetty Wap  - Trap Queen (Official Video) Prod. By Tony Fadd.mp3"
+    },
+    {
+      "song_id": "548b99b819a474eb",
+      "title": "G-Eazy x Bebe Rexha - Me, Myself & I (Official Video)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/146 - G-Eazy x Bebe Rexha - Me, Myself & I (Official Video).mp3"
+    },
+    {
+      "song_id": "3c6f027cc89e60bd",
+      "title": "gnash - i hate u, i love u ft. olivia o'brien (music video)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/125 - gnash - i hate u, i love u ft. olivia o'brien (music video).mp3"
+    },
+    {
+      "song_id": "086dd9a03e48649b",
+      "title": "Haddaway - What Is Love (Official 4K Video)",
+      "split": "train",
+      "audio": "Music 80's 90's Hits/055 - Haddaway - What Is Love (Official 4K Video).mp3"
+    },
+    {
+      "song_id": "ba37f2f83001dd0b",
+      "title": "Halsey - Without Me",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/063 - Halsey - Without Me.mp3"
+    },
+    {
+      "song_id": "465d3d3aecafee57",
+      "title": "Imagine Dragons - Natural",
+      "split": "train",
+      "audio": "Be alright mix/101 - Imagine Dragons - Natural.mp3"
+    },
+    {
+      "song_id": "c0c9cc1b6ade4ab0",
+      "title": "Imagine Dragons - Whatever It Takes (Official Music Video)",
+      "split": "train",
+      "audio": "Be alright mix/091 - Imagine Dragons - Whatever It Takes (Official Music Video).mp3"
+    },
+    {
+      "song_id": "c222a2c2d85b2af0",
+      "title": "James Bay - Let It Go",
+      "split": "train",
+      "audio": "Jahrescharts 2015/119 - James Bay - Let It Go.mp3"
+    },
+    {
+      "song_id": "af65a7b5dda861ad",
+      "title": "Jason Derulo - \"Want To Want Me\" (Official Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/184 - Jason Derulo - ＂Want To Want Me＂ (Official Video).mp3"
+    },
+    {
+      "song_id": "c65c05499385aaa9",
+      "title": "Jessie J - Flashlight (from Pitch Perfect 2) (Official Video)",
+      "split": "validation",
+      "audio": "Jahrescharts 2015/143 - Jessie J - Flashlight (from Pitch Perfect 2) (Official Video).mp3"
+    },
+    {
+      "song_id": "839804b444bb2488",
+      "title": "Jonas Brothers - Sucker (Official Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/175 - Jonas Brothers - Sucker (Official Video).mp3"
+    },
+    {
+      "song_id": "c01f9ff1f3b7e705",
+      "title": "Justin Bieber - Love Yourself (PURPOSE : The Movement)",
+      "split": "test",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/098 - Justin Bieber - Love Yourself (PURPOSE ： The Movement).mp3"
+    },
+    {
+      "song_id": "e338e04b67f34b2a",
+      "title": "Khalid - Talk (Official Video)",
+      "split": "validation",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/174 - Khalid - Talk (Official Video).mp3"
+    },
+    {
+      "song_id": "3087770adce4bc7f",
+      "title": "Kiiara - Gold (Official Video)",
+      "split": "validation",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/244 - Kiiara - Gold (Official Video).mp3"
+    },
+    {
+      "song_id": "fced8844096a3270",
+      "title": "Labrinth - Jealous (Official Video)",
+      "split": "test",
+      "audio": "Be alright mix/027 - Labrinth - Jealous (Official Video).mp3"
+    },
+    {
+      "song_id": "3e868b749973bc1a",
+      "title": "Lauv & Troye Sivan - i'm so tired... [Official Visualizer]",
+      "split": "validation",
+      "audio": "Be alright mix/061 - Lauv & Troye Sivan - i'm so tired... [Official Visualizer].mp3"
+    },
+    {
+      "song_id": "98fb20516b199609",
+      "title": "Maroon 5 - Don't Wanna Know (Official Music Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/086 - Maroon 5 - Don't Wanna Know (Official Music Video).mp3"
+    },
+    {
+      "song_id": "e6502f449abd4b49",
+      "title": "Marshmello & Anne-Marie - FRIENDS (Music Video) *OFFICIAL FRIENDZONE ANTHEM*",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/147 - Marshmello & Anne-Marie - FRIENDS (Music Video) ＊OFFICIAL FRIENDZONE ANTHEM＊.mp3"
+    },
+    {
+      "song_id": "dadf4fe765ab6c5f",
+      "title": "Meghan Trainor - NO (Official Video)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/145 - Meghan Trainor - NO (Official Video).mp3"
+    },
+    {
+      "song_id": "f4f6e6d1f2f53cc7",
+      "title": "Mike Perry - The Ocean ft. Shy Martin",
+      "split": "validation",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/225 - Mike Perry - The Ocean ft. Shy Martin.mp3"
+    },
+    {
+      "song_id": "5f0afe55b9885e83",
+      "title": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix) (Explicit)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/060 - Mike Posner - I Took A Pill In Ibiza (Seeb Remix) (Explicit).mp3"
+    },
+    {
+      "song_id": "3614a9e7fd92da01",
+      "title": "MKTO - Classic (Official Video)",
+      "split": "validation",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/218 - MKTO - Classic (Official Video).mp3"
+    },
+    {
+      "song_id": "beb25256606cc37e",
+      "title": "No Doubt - Don't Speak (Official 4K Music Video)",
+      "split": "train",
+      "audio": "Music 80's 90's Hits/048 - No Doubt - Don't Speak (Official 4K Music Video).mp3"
+    },
+    {
+      "song_id": "f7a1e5bbb15a0c40",
+      "title": "One Direction - Drag Me Down (Official Video)",
+      "split": "test",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/101 - One Direction - Drag Me Down (Official Video).mp3"
+    },
+    {
+      "song_id": "18a7080919740c1c",
+      "title": "Panic! At The Disco - High Hopes (Official Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/145 - Panic! At The Disco - High Hopes (Official Video).mp3"
+    },
+    {
+      "song_id": "16dd298144fa7450",
+      "title": "R. City - Locked Away (Official Video) ft. Adam Levine",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/103 - R. City - Locked Away (Official Video) ft. Adam Levine.mp3"
+    },
+    {
+      "song_id": "a9223c7a03d920b0",
+      "title": "Sam Smith - How Do You Sleep? (Official Music Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/172 - Sam Smith - How Do You Sleep？ (Official Music Video).mp3"
+    },
+    {
+      "song_id": "856a0c42335336cb",
+      "title": "Sam Smith - Writing's On The Wall (from Spectre) (Official Music Video)",
+      "split": "train",
+      "audio": "Movies Soundtrack Songs. Romantic Movie Theme Songs#/082 - Sam Smith - Writing's On The Wall (from Spectre) (Official Music Video).mp3"
+    },
+    {
+      "song_id": "e495af8411b31983",
+      "title": "Sam Smith, Normani - Dancing With A Stranger (Official Music Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/140 - Sam Smith, Normani - Dancing With A Stranger (Official Music Video).mp3"
+    },
+    {
+      "song_id": "a2121158c82e27f6",
+      "title": "Selena Gomez - Kill Em With Kindness",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/154 - Selena Gomez - Kill Em With Kindness.mp3"
+    },
+    {
+      "song_id": "1ed3c3b78e8b1132",
+      "title": "Shawn Mendes - In My Blood",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/190 - Shawn Mendes - In My Blood.mp3"
+    },
+    {
+      "song_id": "7d8f79ef3f478a5d",
+      "title": "Shawn Mendes - Stitches (Official Music Video)",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/106 - Shawn Mendes - Stitches (Official Music Video).mp3"
+    },
+    {
+      "song_id": "0f23eb67d473399b",
+      "title": "Sia - Cheap Thrills (Official Lyric Video) ft. Sean Paul",
+      "split": "validation",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/097 - Sia - Cheap Thrills (Official Lyric Video) ft. Sean Paul.mp3"
+    },
+    {
+      "song_id": "fe484327ceeee479",
+      "title": "Sia - The Greatest (Official Video)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/126 - Sia - The Greatest (Official Video).mp3"
+    },
+    {
+      "song_id": "60e4fdc750eef6db",
+      "title": "Sting - Shape of My Heart (Official Music Video)",
+      "split": "test",
+      "audio": "Movies Soundtrack Songs. Romantic Movie Theme Songs#/090 - Sting - Shape of My Heart (Official Music Video).mp3"
+    },
+    {
+      "song_id": "87e764030e38fff6",
+      "title": "Survivor - Eye Of The Tiger (Official HD Video)",
+      "split": "validation",
+      "audio": "Music 80's 90's Hits/053 - Survivor - Eye Of The Tiger (Official HD Video).mp3"
+    },
+    {
+      "song_id": "891211286e4f02f7",
+      "title": "The Chainsmokers - Closer (Lyric) ft. Halsey",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/161 - The Chainsmokers - Closer (Lyric) ft. Halsey.mp3"
+    },
+    {
+      "song_id": "d3d0477dc779c42e",
+      "title": "The Hanging Tree’ James Newton Howard ft. Jennifer Lawrence (Official Audio)",
+      "split": "train",
+      "audio": "Jahrescharts 2015/018 - The Hanging Tree’ James Newton Howard ft. Jennifer Lawrence (Official Audio).mp3"
+    },
+    {
+      "song_id": "45ee58f8ae849a53",
+      "title": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/032 - Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack.mp3"
+    },
+    {
+      "song_id": "44d38d21466c7995",
+      "title": "XXXTENTACION - SAD!",
+      "split": "train",
+      "audio": "Top Songs of the Decade Playlist (2010-2019)/049 - XXXTENTACION - SAD!.mp3"
+    },
+    {
+      "song_id": "18bcada1ff510397",
+      "title": "Zara Larsson, MNEK - Never Forget You (Official Video)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/161 - Zara Larsson, MNEK - Never Forget You (Official Video).mp3"
+    },
+    {
+      "song_id": "81a90bde4ba56415",
+      "title": "ZAYN - PILLOWTALK (Official Video)",
+      "split": "train",
+      "audio": "TOP 100 Songs of 2015 & 2016 ｜ Billboard Playlist/085 - ZAYN - PILLOWTALK (Official Video).mp3"
+    },
+    {
+      "song_id": "7aca09a7d0af1a98",
+      "title": "Zedd - I Want You To Know ft. Selena Gomez",
+      "split": "test",
+      "audio": "Jahrescharts 2015/127 - Zedd - I Want You To Know ft. Selena Gomez.mp3"
+    }
+  ]
+}

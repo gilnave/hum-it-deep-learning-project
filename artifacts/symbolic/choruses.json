@@ -1,0 +1,4088 @@
+{
+  "format_version": 1,
+  "purpose": "chorus-aware retrieval prior for the fixed song catalog",
+  "time_reference": "original_song_seconds",
+  "catalog_sha256": "8e3bb8916f3b70d4d5c10328a51ca1eb40582a826d37d2b2f7f59059f741cff5",
+  "vocal_manifest_sha256": "1b1d42e0df36eeaabaac96a86e8ebc0574630060a61c74d2a716ee1fc0d6d5e8",
+  "overrides_sha256": "8afe163b3f9657992a5e06a9b041ee236bd67f6fd70a2f9a4adcb38d2b2fb9db",
+  "detector": {
+    "name": "conservative_repeated_vocal_chroma",
+    "version": 4,
+    "sample_rate": 11025,
+    "hop_length": 512,
+    "trim_top_db": 35.0,
+    "segment_seconds": [
+      16.0,
+      20.0,
+      24.0,
+      28.0,
+      32.0
+    ],
+    "start_stride_seconds": 2.0,
+    "resampled_frames": 32,
+    "minimum_separation_seconds": 32.0,
+    "minimum_similarity": 0.2,
+    "high_confidence_similarity": 0.78,
+    "neighbor_similarity": 0.2,
+    "maximum_choruses": 4
+  },
+  "detector_sha256": "e81d3cf96c4e6c560229e9dba0d000c645e6f39e810c008acab77c7e7176c119",
+  "songs": [
+    {
+      "song_id": "04154c76eacfde72",
+      "title": "Justin Bieber - Holy",
+      "duration_seconds": 328.457891,
+      "vocal_trim_start_seconds": 44.675193,
+      "vocal_trim_end_seconds": 321.689252,
+      "source_sha256": "1faa6ea6138f5b2225eaff3927693e89479e51c5f589dd623e2207f5ef186262",
+      "vocals_sha256": "a0a4b421057a79d2d234354c904942e414983ca0d17f45271f802b3e88c881ea",
+      "fingerprint": "c60605731c391409568a679b2f5f67d9c1ee6913fe18294b9350f1af48cadc89",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.731153,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 66.641,
+          "end_seconds": 82.641
+        },
+        {
+          "start_seconds": 110.573,
+          "end_seconds": 126.573
+        }
+      ]
+    },
+    {
+      "song_id": "05315cc83e38919a",
+      "title": "Ariana Grande - break up with your girlfriend, i'm bored (Official Video)",
+      "duration_seconds": 204.416893,
+      "vocal_trim_start_seconds": 0.510839,
+      "vocal_trim_end_seconds": 198.902132,
+      "source_sha256": "6f43c2ed9b5035f623069c7699793bc720c73b257c24fe2a9e79fabeeb6240ce",
+      "vocals_sha256": "a87a37bb579f23d0072f2dacff7f6c6b6b230324ebbe59b45c0db561c0abc477",
+      "fingerprint": "f484ebf454e3a874c5a82e834f28839cbe3e61dd1ff4965c7e63ffb770261f87",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": "allin1_exact_clock_plus_repetition_consensus_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 40.0,
+          "end_seconds": 74.4
+        },
+        {
+          "start_seconds": 97.8,
+          "end_seconds": 135.5
+        },
+        {
+          "start_seconds": 160.3,
+          "end_seconds": 198.4
+        }
+      ]
+    },
+    {
+      "song_id": "06bc653464ccc85c",
+      "title": "Dan + Shay, Justin Bieber - 10,000 Hours (Official Music Video)",
+      "duration_seconds": 175.972449,
+      "vocal_trim_start_seconds": 0.13932,
+      "vocal_trim_end_seconds": 172.617143,
+      "source_sha256": "5e58200e87ffd5bae0019868981bc479e476fc0e8c5ff8ecf355653cb23d6c6a",
+      "vocals_sha256": "5f84b2617fdbaa0fde835fcb189176085364467c5c6b99caa18bee4ed7720d92",
+      "fingerprint": "a67a612a8f94ccb0538ca2264c9816fdabd5acdf907456ea2734af34887f02b2",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.791643,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 40.078,
+          "end_seconds": 56.078
+        },
+        {
+          "start_seconds": 88.004,
+          "end_seconds": 104.004
+        }
+      ]
+    },
+    {
+      "song_id": "07ac578a0df05186",
+      "title": "Gorillaz - Feel Good Inc.",
+      "duration_seconds": 222.64,
+      "vocal_trim_start_seconds": 0.650159,
+      "vocal_trim_end_seconds": 221.286168,
+      "source_sha256": "645c68232b26bc49004eb6cefdff10b62d61c0aeb8aa6e7e95473310efbd6692",
+      "vocals_sha256": "a2d594a6cbf04bf53c2fbc0cfa093c1ced8f7cbb9371c5f74717afe76af26444",
+      "fingerprint": "e8551821ed066246e0f412032633711ef58085cd8dc9897cba96dbc37a2d3bf4",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": "published_structure_aligned_to_local_exact_clock_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 66.1,
+          "end_seconds": 97.0
+        },
+        {
+          "start_seconds": 159.4,
+          "end_seconds": 190.4
+        }
+      ]
+    },
+    {
+      "song_id": "086dd9a03e48649b",
+      "title": "Haddaway - What Is Love (Official 4K Video)",
+      "duration_seconds": 240.64,
+      "vocal_trim_start_seconds": 3.900952,
+      "vocal_trim_end_seconds": 238.933333,
+      "source_sha256": "932d3e7a7c7f972cdbed59360a7c5ce349299c60d5976c49f1b6f7b0c08fb43d",
+      "vocals_sha256": "1d93aefc1b77bb75cb228c6c5a89df07d09b504e50bd13a5da755b2dc6a89b69",
+      "fingerprint": "805562e9eefe7a18fb666c14ac710b285bb32e5212bc7dec5e833bbe68e50d75",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.80877,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 53.824,
+          "end_seconds": 69.824
+        },
+        {
+          "start_seconds": 115.728,
+          "end_seconds": 131.728
+        }
+      ]
+    },
+    {
+      "song_id": "08a58e67791f0d3a",
+      "title": "24kGoldn - Mood",
+      "duration_seconds": 150.325986,
+      "vocal_trim_start_seconds": 6.269388,
+      "vocal_trim_end_seconds": 148.886349,
+      "source_sha256": "3235468c4463b5aa9d7c3fe6b339bfbdfa5c86fa55359c80078b61f0cc5e3c84",
+      "vocals_sha256": "6f6546146b190ff59715eadb6e7ecfb7191695c6ac47fdd262767365583464da",
+      "fingerprint": "80f98ae6f1355e1e137aacac3d0d17b32be83e0a7a56daf069bfeef65a9d142f",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.665665,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 16.254,
+          "end_seconds": 36.254
+        },
+        {
+          "start_seconds": 58.189,
+          "end_seconds": 78.189
+        },
+        {
+          "start_seconds": 116.1,
+          "end_seconds": 136.1
+        }
+      ]
+    },
+    {
+      "song_id": "0e70fecd7c2d3f50",
+      "title": "The Black Eyed Peas - Where Is The Love? (Official Music Video)",
+      "duration_seconds": 250.543333,
+      "vocal_trim_start_seconds": 20.2478,
+      "vocal_trim_end_seconds": 244.599002,
+      "source_sha256": "9db2f294263f5d96a44d617f05e73342c0e166d1f50f1cd5cbd88cd43130311b",
+      "vocals_sha256": "ec5cb8ecced1f2310c3b8197bbc1f941141f9b1513bce7840a44e7379cf26e67",
+      "fingerprint": "996577d01957d84256a567663a44d9f7e76f1edfd62c82524da0ff3c6619ac10",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 4
+      },
+      "review": "allin1_exact_clock_plus_repetition_consensus_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 61.9,
+          "end_seconds": 91.9
+        },
+        {
+          "start_seconds": 132.7,
+          "end_seconds": 165.8
+        },
+        {
+          "start_seconds": 204.1,
+          "end_seconds": 250.5
+        }
+      ]
+    },
+    {
+      "song_id": "0e8353e8fad9ae27",
+      "title": "Billie Eilish - when the party's over",
+      "duration_seconds": 193.329365,
+      "vocal_trim_start_seconds": 1.996916,
+      "vocal_trim_end_seconds": 186.316916,
+      "source_sha256": "ee487e11f0b01c1f649dfe861946988457bf0ca7df25f2bd6fbea4446f547132",
+      "vocals_sha256": "ba40b208d71dbe25bf7e32b0ba2125639e1b69726af33b201ee4e7305abcb80b",
+      "fingerprint": "3928f91d50b5a3207fd14d1ad0b34cef9f5badd93ffaf14d068f2084a977b3ef",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.710683,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 21.966,
+          "end_seconds": 37.966
+        },
+        {
+          "start_seconds": 79.877,
+          "end_seconds": 95.877
+        },
+        {
+          "start_seconds": 99.846,
+          "end_seconds": 115.846
+        }
+      ]
+    },
+    {
+      "song_id": "0f23eb67d473399b",
+      "title": "Sia - Cheap Thrills (Official Lyric Video) ft. Sean Paul",
+      "duration_seconds": 261.723741,
+      "vocal_trim_start_seconds": 0.975238,
+      "vocal_trim_end_seconds": 238.608254,
+      "source_sha256": "10fe794293c1413bb8df8a6a238cd7e5267a6f73f05639f53ea992cb8593c450",
+      "vocals_sha256": "7113ff4a659f2a6ff570ac374a64f9370bdf4c484e54a48902a2953c5add6c1c",
+      "fingerprint": "985232808cfa2c241e6cce3b6392c67ac9ba7f802213ae4186a22e8583f1943c",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": "allin1_exact_clock_structural_sections_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 43.2,
+          "end_seconds": 81.9
+        },
+        {
+          "start_seconds": 107.8,
+          "end_seconds": 139.3
+        },
+        {
+          "start_seconds": 181.3,
+          "end_seconds": 213.9
+        }
+      ]
+    },
+    {
+      "song_id": "0f49946df4f06c48",
+      "title": "Coldplay - Hymn For The Weekend",
+      "duration_seconds": 258.266667,
+      "vocal_trim_start_seconds": 2.832834,
+      "vocal_trim_end_seconds": 254.769342,
+      "source_sha256": "9474df49011eaa577993e8cb67609bc6264252b706359f7dd1fe9d5f1d6b57f0",
+      "vocals_sha256": "1f0013a3c56d9ea42eaa28e3aede0e8a2e06479623542e8652fd0637be33d69f",
+      "fingerprint": "ad3853cb1273c8a3292d308835733f3880999f1640b7db1906fca4269df2b617",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": "accepted_by_user_2026-08-30; excluded noncanonical 210-234 C-section",
+      "choruses": [
+        {
+          "start_seconds": 98.0,
+          "end_seconds": 120.0
+        },
+        {
+          "start_seconds": 162.0,
+          "end_seconds": 184.0
+        }
+      ]
+    },
+    {
+      "song_id": "12e509b2b3da32e6",
+      "title": "Adele - Send My Love (To Your New Lover)",
+      "duration_seconds": 225.001383,
+      "vocal_trim_start_seconds": 0.325079,
+      "vocal_trim_end_seconds": 220.31093,
+      "source_sha256": "8256d442e92c66e7f7c08c2871dd7cce00a6edf3d3dcb1197b1462b33fee6dea",
+      "vocals_sha256": "9ce9642db3467755f63446fbcd460b1c736eb98b6713ecd392b79ecc5a9709f7",
+      "fingerprint": "848d0c64e7c4d26032e3399034dacfc7c870136c6cd6f916826c26e65e507a82",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": "allin1_exact_clock_plus_repetition_consensus_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 48.6,
+          "end_seconds": 72.0
+        },
+        {
+          "start_seconds": 112.3,
+          "end_seconds": 148.1
+        },
+        {
+          "start_seconds": 171.6,
+          "end_seconds": 225.0
+        }
+      ]
+    },
+    {
+      "song_id": "13a42f31a715d1ae",
+      "title": "El Perdón - Nicky Jam y Enrique Iglesias",
+      "duration_seconds": 226.85898,
+      "vocal_trim_start_seconds": 26.377868,
+      "vocal_trim_end_seconds": 223.468844,
+      "source_sha256": "43ba883f5a7c94c8e96a11737f6f45aa247e9240bcbe95bb35eeef06592d8752",
+      "vocals_sha256": "8b2913eba75f20a02df8ec51f4a02c863e59226af6d9fb92104301c0ccdd9711",
+      "fingerprint": "ab56d70518140aba07921ef525aa717f1430741dfe1332f372f6e3c461b961b3",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.889437,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 68.313,
+          "end_seconds": 88.313
+        },
+        {
+          "start_seconds": 132.214,
+          "end_seconds": 152.214
+        }
+      ]
+    },
+    {
+      "song_id": "16715abbd4e1fd2b",
+      "title": "Maroon 5 - Memories",
+      "duration_seconds": 195.114671,
+      "vocal_trim_start_seconds": 11.006259,
+      "vocal_trim_end_seconds": 184.645079,
+      "source_sha256": "862959c8343649a7842c99fa7ce83d2ea33b8f6c393d1407c4148efe6030e0c9",
+      "vocals_sha256": "4a6149783c731c946bfb07f18cada921fca2ff0b3dc20164b47b884fb746dd29",
+      "fingerprint": "3591be2f5997a3354c747fb100764bbdc27a429afd362e828219a09bbe20ef2f",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 9.0,
+          "end_seconds": 32.0
+        },
+        {
+          "start_seconds": 63.0,
+          "end_seconds": 96.0
+        },
+        {
+          "start_seconds": 129.0,
+          "end_seconds": 171.0
+        }
+      ]
+    },
+    {
+      "song_id": "16dd298144fa7450",
+      "title": "R. City - Locked Away (Official Video) ft. Adam Levine",
+      "duration_seconds": 265.102245,
+      "vocal_trim_start_seconds": 4.829751,
+      "vocal_trim_end_seconds": 261.22449,
+      "source_sha256": "8cbf405ca1d9d710f2e7599a10aa04d4e391da3e5cf8c7381c921484097418d3",
+      "vocals_sha256": "fc755a9a6194f45c1ec4ed3390eba7d28b8197e924b9ba619addd5aae29295e1",
+      "fingerprint": "a434ac2c12b0586e9feff3c13dfe80f49864ba14885d4351bc0d1c4e1ea8b344",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.898846,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 90.697,
+          "end_seconds": 106.697
+        },
+        {
+          "start_seconds": 212.509,
+          "end_seconds": 228.509
+        }
+      ]
+    },
+    {
+      "song_id": "177e8aabddb3c351",
+      "title": "Kylie Minogue - Can't Get You Out Of My Head",
+      "duration_seconds": 230.864422,
+      "vocal_trim_start_seconds": 8.777143,
+      "vocal_trim_end_seconds": 226.626757,
+      "source_sha256": "6c481650f8f526f1295043d88ddde61f883770e48e51e05d30b331f3a78da96f",
+      "vocals_sha256": "c7a1c8f9c8a57a249ee630f5cb25efd711453617bfb979e17af920937477c002",
+      "fingerprint": "723a01bb9d5ba76fa0b1afa2b95ae75669443f044146fef4fb28f1ca2acb69a5",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.821703,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 24.752,
+          "end_seconds": 40.752
+        },
+        {
+          "start_seconds": 108.623,
+          "end_seconds": 124.623
+        },
+        {
+          "start_seconds": 192.493,
+          "end_seconds": 208.493
+        }
+      ]
+    },
+    {
+      "song_id": "17f376ad3004644b",
+      "title": "Tate McRae - you broke me first",
+      "duration_seconds": 168.379524,
+      "vocal_trim_start_seconds": 2.832834,
+      "vocal_trim_end_seconds": 161.935964,
+      "source_sha256": "6c90c76186ffc352e403ac155a7e8f270475cb274959206325ebad3684b8ebd6",
+      "vocals_sha256": "0ceae560c7528154c7414cb74e8223b76123d1704f290c3f71695402feacd555",
+      "fingerprint": "2b15ffe9a00008c713980d217cfd3d71074508176bd18a951a26150e9f833ef2",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": "allin1_exact_clock_plus_repetition_consensus_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 35.2,
+          "end_seconds": 58.4
+        },
+        {
+          "start_seconds": 89.5,
+          "end_seconds": 131.1
+        }
+      ]
+    },
+    {
+      "song_id": "18a7080919740c1c",
+      "title": "Panic! At The Disco - High Hopes (Official Video)",
+      "duration_seconds": 196.498889,
+      "vocal_trim_start_seconds": 14.303492,
+      "vocal_trim_end_seconds": 193.329342,
+      "source_sha256": "807536638980307ed27e6300a77f17b249ff25b3efd443086e20c2db1cb18096",
+      "vocals_sha256": "d6c023bbc5c1b7058a2084e392bf27cc8727e69ead176c8c9ec1207f6840463b",
+      "fingerprint": "6788670408632ea4665bc511cf1b93a13196b017e224270e0a099b7f8c413938",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": "allin1_exact_clock_plus_repetition_consensus_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 16.5,
+          "end_seconds": 38.5
+        },
+        {
+          "start_seconds": 75.8,
+          "end_seconds": 99.2
+        },
+        {
+          "start_seconds": 134.3,
+          "end_seconds": 196.4
+        }
+      ]
+    },
+    {
+      "song_id": "18bcada1ff510397",
+      "title": "Zara Larsson, MNEK - Never Forget You (Official Video)",
+      "duration_seconds": 242.773333,
+      "vocal_trim_start_seconds": 14.582132,
+      "vocal_trim_end_seconds": 225.790839,
+      "source_sha256": "8a42ec4d50d6065e8c6f773da0cba56a367eaabc124110f46ec1acc8eee7da72",
+      "vocals_sha256": "1376769dfa2b051f2d5d6fc19231081c096d88679c701c08e31d384faa6a1bac",
+      "fingerprint": "1d5031a2238e6b9c496584d435eabdcf41ae32fdbd48160536e2a1a37a40e431",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.656037,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 34.551,
+          "end_seconds": 54.551
+        },
+        {
+          "start_seconds": 130.403,
+          "end_seconds": 150.403
+        },
+        {
+          "start_seconds": 166.348,
+          "end_seconds": 186.348
+        }
+      ]
+    },
+    {
+      "song_id": "1e8b9836678891ac",
+      "title": "Beyoncé - Halo",
+      "duration_seconds": 224.769184,
+      "vocal_trim_start_seconds": 0.696599,
+      "vocal_trim_end_seconds": 221.518367,
+      "source_sha256": "ec15f6bb2e342ddbe509e4035523aaa177562b62604fc873c50a35aa62b5bae5",
+      "vocals_sha256": "5e819b0a956e368ae4bd4e25ab1c50d9058d46165680868793cb1933e07fd42f",
+      "fingerprint": "3d4517f6c5a5234209f0c63d075f775f31d0dcfdbf90ee8a78030c3f256d14df",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": "harmonix_human_chorus_plus_postchorus_hook_same_clock_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 48.1,
+          "end_seconds": 84.1
+        },
+        {
+          "start_seconds": 120.1,
+          "end_seconds": 156.1
+        },
+        {
+          "start_seconds": 183.1,
+          "end_seconds": 222.1
+        }
+      ]
+    },
+    {
+      "song_id": "1ed3c3b78e8b1132",
+      "title": "Shawn Mendes - In My Blood",
+      "duration_seconds": 217.941338,
+      "vocal_trim_start_seconds": 1.439637,
+      "vocal_trim_end_seconds": 195.047619,
+      "source_sha256": "2e03baa862a30d08d72df4e0097daba9c7efcb3a33e0826f5e90f2f1d65795dd",
+      "vocals_sha256": "19f2e83473c46fc2897562dc3889fc32b54b65fb98b92fe6050aac26640e5a20",
+      "fingerprint": "4ca9da0a3a330ffeda62175967d93116f8b086963cd70416024639a941912de7",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.680438,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 57.353,
+          "end_seconds": 81.353
+        },
+        {
+          "start_seconds": 97.292,
+          "end_seconds": 121.292
+        },
+        {
+          "start_seconds": 129.242,
+          "end_seconds": 153.242
+        },
+        {
+          "start_seconds": 167.184,
+          "end_seconds": 191.184
+        }
+      ]
+    },
+    {
+      "song_id": "201823d912f1ba75",
+      "title": "Hozier - Take Me To Church",
+      "duration_seconds": 256.429592,
+      "vocal_trim_start_seconds": 3.436553,
+      "vocal_trim_end_seconds": 230.016871,
+      "source_sha256": "e4405f814f589ad60193be23a0dba9b964b74f12cae6b3a7f3fe2f7879b3b96d",
+      "vocals_sha256": "20bcd01665acadb20baf1950d3d4b56abd7740f1dde4daa9effc0e7030435d4e",
+      "fingerprint": "c5b938d99ce00af6a87626e6e00617a876d4b4c6d728040e0c28d4f480b2a6fc",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.67449,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 61.347,
+          "end_seconds": 77.347
+        },
+        {
+          "start_seconds": 139.227,
+          "end_seconds": 155.227
+        },
+        {
+          "start_seconds": 201.131,
+          "end_seconds": 217.131
+        }
+      ]
+    },
+    {
+      "song_id": "210592425c38ddb2",
+      "title": "Lady Gaga - Bad Romance",
+      "duration_seconds": 308.37263,
+      "vocal_trim_start_seconds": 13.188934,
+      "vocal_trim_end_seconds": 298.608617,
+      "source_sha256": "9c9fc3c0293b3e91c1a06acf62923adac1e57d72373e6ad5fd46add0cbaaebbb",
+      "vocals_sha256": "a3cbc701602c292cc89c7157a73614083ca01b7436eadcbba27673bfab75638c",
+      "fingerprint": "dfd73f2d8e12153dde2a139f34c008d086d0feb55c7ede2fb455caa61d4aa81d",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 16.0,
+          "end_seconds": 34.0
+        },
+        {
+          "start_seconds": 73.0,
+          "end_seconds": 113.0
+        },
+        {
+          "start_seconds": 154.0,
+          "end_seconds": 202.0
+        },
+        {
+          "start_seconds": 250.0,
+          "end_seconds": 291.0
+        }
+      ]
+    },
+    {
+      "song_id": "290a216cf9f63943",
+      "title": "Maroon 5 - Girls Like You",
+      "duration_seconds": 270.784014,
+      "vocal_trim_start_seconds": 7.801905,
+      "vocal_trim_end_seconds": 243.763084,
+      "source_sha256": "8f7daaf99024024e84ccf171fe777361abe4e0687b73fd3bacb4252563d82973",
+      "vocals_sha256": "1d41bf31ec10634e10ccad393504f3dee9f6323f7152124298a2e15791624c16",
+      "fingerprint": "b78363b474a7009a61cc10b113e4acfc173c56e0a766d503a776338950116388",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.857242,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 99.66,
+          "end_seconds": 119.66
+        },
+        {
+          "start_seconds": 203.5,
+          "end_seconds": 223.5
+        }
+      ]
+    },
+    {
+      "song_id": "2b960fe77930947c",
+      "title": "Billie Eilish - No Time To Die",
+      "duration_seconds": 239.281633,
+      "vocal_trim_start_seconds": 28.374785,
+      "vocal_trim_end_seconds": 229.738231,
+      "source_sha256": "aa0cd1f377670708e9a776a21a6fdb4473ca7837b577da156896435c32593160",
+      "vocals_sha256": "2475cb6cacdb7b665acb77b3d843395add4b0596ecc28e83c21520ac3f0fb0ac",
+      "fingerprint": "15a84765178c608305513785a363b32aa3bb10b94985c2c3340dd68a0fd9ce0a",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.692623,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 34.366,
+          "end_seconds": 50.366
+        },
+        {
+          "start_seconds": 62.322,
+          "end_seconds": 78.322
+        },
+        {
+          "start_seconds": 142.199,
+          "end_seconds": 158.199
+        },
+        {
+          "start_seconds": 188.128,
+          "end_seconds": 204.128
+        }
+      ]
+    },
+    {
+      "song_id": "2cf17d04acacd9df",
+      "title": "Rihanna - Work",
+      "duration_seconds": 454.054626,
+      "vocal_trim_start_seconds": 0.09288,
+      "vocal_trim_end_seconds": 444.940771,
+      "source_sha256": "ac772cc99527ceb03bed3e627f0f62672ff3021881b6461fe2b137e5c3a39a37",
+      "vocals_sha256": "0ae308ca66e5ba034d3ac79f20b4f91a35fa7a46eec525d5d811b02ae37b4503",
+      "fingerprint": "8f3fbaf7641e987b0c3d06fb2b72566cedcfe5c59b876e5aba49dcd73b65abe5",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.83357,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 197.788,
+          "end_seconds": 217.788
+        },
+        {
+          "start_seconds": 423.439,
+          "end_seconds": 443.439
+        }
+      ]
+    },
+    {
+      "song_id": "2dba3612488eb3fb",
+      "title": "Fetty Wap  - Trap Queen (Official Video) Prod. By Tony Fadd",
+      "duration_seconds": 244.297166,
+      "vocal_trim_start_seconds": 6.315828,
+      "vocal_trim_end_seconds": 223.840363,
+      "source_sha256": "03f9deb00ac720a32559133d417861bdf36009213baeb5e79e88477b9930d811",
+      "vocals_sha256": "1445535f035d0f7cc6639f9a122a0c6af7f8d2d15592b581ff37c13552887166",
+      "fingerprint": "b0418b8141de843a1d58b514de360061883d8e45f7caad012bea20c495d4c9a6",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.890952,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 64.226,
+          "end_seconds": 84.226
+        },
+        {
+          "start_seconds": 116.146,
+          "end_seconds": 136.146
+        }
+      ]
+    },
+    {
+      "song_id": "2dc906df88a96a08",
+      "title": "Shawn Mendes - Treat You Better",
+      "duration_seconds": 256.313492,
+      "vocal_trim_start_seconds": 1.021678,
+      "vocal_trim_end_seconds": 249.382313,
+      "source_sha256": "4685115cd387ebb8ef3313fb3b7b9af48be23349410151781dbe7fe104f57065",
+      "vocals_sha256": "74710228fa6f104b0e669623debcdc8446dacb3d398dce31662d1adeb221415a",
+      "fingerprint": "c4b2684c7b6fe579922e39d711bf1875cf0c05b351c80c30587b9d3e6dfd37a1",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.754539,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 56.935,
+          "end_seconds": 72.935
+        },
+        {
+          "start_seconds": 172.756,
+          "end_seconds": 188.756
+        },
+        {
+          "start_seconds": 190.729,
+          "end_seconds": 206.729
+        }
+      ]
+    },
+    {
+      "song_id": "30201cbd7ed8cb44",
+      "title": "Doja Cat - Say So",
+      "duration_seconds": 235.612902,
+      "vocal_trim_start_seconds": 8.730703,
+      "vocal_trim_end_seconds": 216.038458,
+      "source_sha256": "d1f6a72301e116a9ffa2619a73b97c4b98458a39ed047a057c93d7a62e883cc8",
+      "vocals_sha256": "0579dcd5c9263f5137b38709dcfdd61d53a2e46adb671e16afe75a67842b8cdb",
+      "fingerprint": "962ff2f67cc2050877137069c8a33e85623d54c90cca1e6099e29011ac846b99",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.883394,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 94.598,
+          "end_seconds": 110.598
+        },
+        {
+          "start_seconds": 146.518,
+          "end_seconds": 162.518
+        },
+        {
+          "start_seconds": 198.438,
+          "end_seconds": 214.438
+        }
+      ]
+    },
+    {
+      "song_id": "3087770adce4bc7f",
+      "title": "Kiiara - Gold (Official Video)",
+      "duration_seconds": 217.640658,
+      "vocal_trim_start_seconds": 0.0,
+      "vocal_trim_end_seconds": 216.688617,
+      "source_sha256": "451fc06e919f2a70386411deeab36eddbc8a2fea25c6313ef9a9fa982afa44f0",
+      "vocals_sha256": "f0eee198c6150ab48e8bd15d4f89fb870f50ea1f1410ec9603cd8194b7cb04d8",
+      "fingerprint": "0912e0bef43b11d17c64798145ee055858f4fd46f4d834cec6cab47ad067632d",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.845207,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 7.988,
+          "end_seconds": 23.988
+        },
+        {
+          "start_seconds": 75.883,
+          "end_seconds": 91.883
+        },
+        {
+          "start_seconds": 143.778,
+          "end_seconds": 159.778
+        }
+      ]
+    },
+    {
+      "song_id": "349a7f026589b0e1",
+      "title": "Ava Max - Kings & Queens",
+      "duration_seconds": 162.388776,
+      "vocal_trim_start_seconds": 0.325079,
+      "vocal_trim_end_seconds": 158.452971,
+      "source_sha256": "010dd56b3212d06f267a414ac05a957684dce28a8a60cadc5266b836456895dc",
+      "vocals_sha256": "b50e2f45b8652a66ebb240687ccf85d2ce6df4f5ddc9b6df4b05d9653597a1c4",
+      "fingerprint": "9d880e628b27ad5cceb08c3ab4af379a2564537a2e20e1bb31870f6f332c23f7",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.718623,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 82.199,
+          "end_seconds": 98.199
+        },
+        {
+          "start_seconds": 128.128,
+          "end_seconds": 144.128
+        }
+      ]
+    },
+    {
+      "song_id": "3614a9e7fd92da01",
+      "title": "MKTO - Classic (Official Video)",
+      "duration_seconds": 173.383424,
+      "vocal_trim_start_seconds": 0.278639,
+      "vocal_trim_end_seconds": 170.945306,
+      "source_sha256": "1ce69f2f58b90795746c2a0159f71bd65eaac2e827319157d96707b0f5c34cc0",
+      "vocals_sha256": "984ab4ede6e68c547c4ac32418f8a6f93050cb3bd266ea2ee1a9e10edebab503",
+      "fingerprint": "60ab0ff90cbbd1d3682382e3699da3eb03e84da01c8dc5fb870c85286db6698b",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.669874,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 36.223,
+          "end_seconds": 60.223
+        },
+        {
+          "start_seconds": 64.18,
+          "end_seconds": 88.18
+        },
+        {
+          "start_seconds": 92.137,
+          "end_seconds": 116.137
+        },
+        {
+          "start_seconds": 140.063,
+          "end_seconds": 164.063
+        }
+      ]
+    },
+    {
+      "song_id": "3ace94d493c2cedd",
+      "title": "Billie Eilish, Khalid - lovely",
+      "duration_seconds": 200.46932,
+      "vocal_trim_start_seconds": 21.408798,
+      "vocal_trim_end_seconds": 195.279819,
+      "source_sha256": "23612358f9d19c3711c27010b87209383a2dc96a21e6b1c470f9d32b7af03274",
+      "vocals_sha256": "7bc2da6e218a706f9c1d0e0ddab5f78455a1a1183ff23ada54d4d7c1bd072c8d",
+      "fingerprint": "af6711126660a01a683dfcd3eb8f58c127ec2749e5c679bf8591cfdf13b9ecd5",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.740858,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 37.384,
+          "end_seconds": 53.384
+        },
+        {
+          "start_seconds": 125.248,
+          "end_seconds": 141.248
+        }
+      ]
+    },
+    {
+      "song_id": "3ad961fe25c19d6b",
+      "title": "Justin Bieber & benny blanco - Lonely",
+      "duration_seconds": 157.826054,
+      "vocal_trim_start_seconds": 13.235374,
+      "vocal_trim_end_seconds": 142.013243,
+      "source_sha256": "16d8740346c52e76c9b4e13e3a23c5e82ed5272412c1f26015100cff69a9bcd7",
+      "vocals_sha256": "7faf714d31509993a90ba5e72689c35b8a14e41d7c71bbae99939f049d7bef7a",
+      "fingerprint": "a1b8d9477bbe1cddce6e3b874b30cb6e579a44783328f8665af9fd8e735ea14c",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 39.0,
+          "end_seconds": 71.0
+        },
+        {
+          "start_seconds": 99.0,
+          "end_seconds": 131.0
+        }
+      ]
+    },
+    {
+      "song_id": "3c6f027cc89e60bd",
+      "title": "gnash - i hate u, i love u ft. olivia o'brien (music video)",
+      "duration_seconds": 227.021519,
+      "vocal_trim_start_seconds": 0.603719,
+      "vocal_trim_end_seconds": 218.917732,
+      "source_sha256": "d7129b3312401cad1f400327afa9daed9c93dbc95e13ee4d8e5ca5c265357136",
+      "vocals_sha256": "dee0e0a6ec48c4564ee6094acb4d367cf35522db06648a8a04cec271ee21fa3d",
+      "fingerprint": "a498655b5eb1128251b1283c1f165edd073d593bf746e113b0019077eeb35c40",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.860499,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 132.4,
+          "end_seconds": 148.4
+        },
+        {
+          "start_seconds": 200.295,
+          "end_seconds": 216.295
+        }
+      ]
+    },
+    {
+      "song_id": "3e868b749973bc1a",
+      "title": "Lauv & Troye Sivan - i'm so tired... [Official Visualizer]",
+      "duration_seconds": 163.797347,
+      "vocal_trim_start_seconds": 0.2322,
+      "vocal_trim_end_seconds": 157.338413,
+      "source_sha256": "8d61128c23daca91599cb79d07d36749dd77d73f5c52beefd0f98e763897cca2",
+      "vocals_sha256": "55c83a558b9f39268061e867215f474c5184c2ae560c200836ea4f51e5a77fce",
+      "fingerprint": "0c5b00c42beebfff99f59564e65525ff6b0608aa55832c5bc0c0da011a577624",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.968314,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 8.22,
+          "end_seconds": 24.22
+        },
+        {
+          "start_seconds": 64.134,
+          "end_seconds": 80.134
+        }
+      ]
+    },
+    {
+      "song_id": "3f70d942b6a7b11b",
+      "title": "Adele - Someone Like You",
+      "duration_seconds": 284.920476,
+      "vocal_trim_start_seconds": 14.071293,
+      "vocal_trim_end_seconds": 268.608435,
+      "source_sha256": "c3a842ef5db349d3b717c5ddbea6e3cd780da7cc2a124e226a4e8c5d2a0a216b",
+      "vocals_sha256": "6777f4ff48b114bb0f2d5116922e71077b6dc5ce758607f6c5cafff9eebe4b41",
+      "fingerprint": "ea79b7fc7882e6a8228a98fdd1518b0eefbf59ba433478ba1f15acf48b177c5b",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": "harmonix_human_annotation_plus_corroborated_final_chorus_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 73.0,
+          "end_seconds": 110.4
+        },
+        {
+          "start_seconds": 156.6,
+          "end_seconds": 185.1
+        },
+        {
+          "start_seconds": 230.0,
+          "end_seconds": 254.0
+        }
+      ]
+    },
+    {
+      "song_id": "4078a6e157465568",
+      "title": "Ed Sheeran - I See Fire (Music Video)",
+      "duration_seconds": 294.800567,
+      "vocal_trim_start_seconds": 0.835918,
+      "vocal_trim_end_seconds": 285.744762,
+      "source_sha256": "6c5dff291b873bea336fdf557964f7daf1eb9fd9e5e8d5b9d2fce3d27ffcc682",
+      "vocals_sha256": "db0b350655e46cbfa1cc276de60c4e1ab57dbdbc1e52196f02574cb055c6dc9e",
+      "fingerprint": "dd9e1124274a5140403151633674575cb8e9fedbe5c5692bbb5f1746899d6762",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.76345,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 32.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 82.709,
+          "end_seconds": 114.709
+        },
+        {
+          "start_seconds": 154.598,
+          "end_seconds": 186.598
+        }
+      ]
+    },
+    {
+      "song_id": "44d38d21466c7995",
+      "title": "XXXTENTACION - SAD!",
+      "duration_seconds": 166.545147,
+      "vocal_trim_start_seconds": 22.012517,
+      "vocal_trim_end_seconds": 153.7161,
+      "source_sha256": "7fc3eeac52894cb987183f0795a1a2822d658319ccfa161b45f1a34d4563be0e",
+      "vocals_sha256": "41e8bd9c195820664e336a92ca562e7cb444d153d222604faca8cdbf6f086eac",
+      "fingerprint": "e29f7c52eb6172547ec7f38b1a1d614196ce9d41095303020d9711229b7fff80",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.750344,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 71.935,
+          "end_seconds": 87.935
+        },
+        {
+          "start_seconds": 135.837,
+          "end_seconds": 151.837
+        }
+      ]
+    },
+    {
+      "song_id": "45ee58f8ae849a53",
+      "title": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack",
+      "duration_seconds": 237.365986,
+      "vocal_trim_start_seconds": 10.727619,
+      "vocal_trim_end_seconds": 224.954921,
+      "source_sha256": "00702cee24268d9d8a2eaecc61cd96b9c2dcf1c7db30441c6f51c7e2c1816f83",
+      "vocals_sha256": "6dd05d382a49e3da494dc85bf702ed4cf9d6d1e8575c3f26b8d8364181f0c714",
+      "fingerprint": "e1f1d8e1328a8fd4d725ecafb720733b780c8e41b36fa71265daf868a88f7f46",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 28.0,
+        "occurrences": 2
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 10.0,
+          "end_seconds": 38.0
+        },
+        {
+          "start_seconds": 74.0,
+          "end_seconds": 112.0
+        },
+        {
+          "start_seconds": 174.0,
+          "end_seconds": 224.0
+        }
+      ]
+    },
+    {
+      "song_id": "460586ec01f5bcc6",
+      "title": "Ava Max - Sweet but Psycho [Official Music Video]",
+      "duration_seconds": 207.16898,
+      "vocal_trim_start_seconds": 13.699773,
+      "vocal_trim_end_seconds": 197.323175,
+      "source_sha256": "06a5f425576405eada6594c7ac6770ad9f7bbfab13ea0b203e800773fb6afb24",
+      "vocals_sha256": "8a31589c6b10d90abbbe700f98bd0b12128f52aad35423cb6c83b06a64b9622d",
+      "fingerprint": "45bdd303ff5acc1e24e300bd9f079d1b853ab442d2e4db3c9334c9640881c9a5",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.789325,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 65.62,
+          "end_seconds": 81.62
+        },
+        {
+          "start_seconds": 123.53,
+          "end_seconds": 139.53
+        }
+      ]
+    },
+    {
+      "song_id": "465d3d3aecafee57",
+      "title": "Imagine Dragons - Natural",
+      "duration_seconds": 189.532902,
+      "vocal_trim_start_seconds": 1.904036,
+      "vocal_trim_end_seconds": 187.013515,
+      "source_sha256": "e9a65ed2fb2edc07171cb1771d7d36930b100520778e2eeef37541bc3f7aa0d7",
+      "vocals_sha256": "1fd05ca928ae058606f1da15ee934383b5685c8824d79472d66ff407d114b0d3",
+      "fingerprint": "9880515e654b35c78cb3036717d5b91e88e323fdb0442ffa83e919264f5fc59f",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.802103,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 32.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 21.873,
+          "end_seconds": 53.873
+        },
+        {
+          "start_seconds": 79.784,
+          "end_seconds": 111.784
+        }
+      ]
+    },
+    {
+      "song_id": "4671ed7fc0e0af29",
+      "title": "Vanessa Carlton - A Thousand Miles",
+      "duration_seconds": 266.936621,
+      "vocal_trim_start_seconds": 30.65034,
+      "vocal_trim_end_seconds": 247.571156,
+      "source_sha256": "cf2d3ba9124929ba88fa03e3f399a8590ef1fb5f4e4408b58764e8ee4788dd9c",
+      "vocals_sha256": "ebc2ab9e8cd7163c99b6c88f8ee7ebfcee46d6c927dadc2833e9646955b03ee2",
+      "fingerprint": "7383375f2dd1f8eddcf6698f180139d0417d13dba5e31d6a1ce417effae3bfd7",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.798435,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 58.607,
+          "end_seconds": 82.607
+        },
+        {
+          "start_seconds": 196.394,
+          "end_seconds": 220.394
+        }
+      ]
+    },
+    {
+      "song_id": "4cd21015903bf14d",
+      "title": "Justin Bieber - Intentions",
+      "duration_seconds": 224.606644,
+      "vocal_trim_start_seconds": 13.839093,
+      "vocal_trim_end_seconds": 209.629751,
+      "source_sha256": "7b7cdf14dbf4ed3d224a1a4a3b2de17f585c72b0d26e1b76f88dedf76be2d98a",
+      "vocals_sha256": "a519a594c8b3d4100cd9939109f4c3b03a190ea79cae8d61561fdaf6342d78f2",
+      "fingerprint": "cbb2f0d3b9efe917d5c777150f3996083928b6b87f0857efefff91ed9a1913ee",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.961177,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 13.839,
+          "end_seconds": 33.839
+        },
+        {
+          "start_seconds": 65.759,
+          "end_seconds": 85.759
+        }
+      ]
+    },
+    {
+      "song_id": "4dea0650c9006e12",
+      "title": "Justin Timberlake - CAN'T STOP THE FEELING!",
+      "duration_seconds": 285.837664,
+      "vocal_trim_start_seconds": 0.650159,
+      "vocal_trim_end_seconds": 281.65805,
+      "source_sha256": "c94b3c2e825e108ef51938e0382e129a1f55655b8f01a48066bb1d12ed08a167",
+      "vocals_sha256": "2776da3953bf3120567c07cbc1b7735d21ca3171e7f93423ec28ce734b2bf380",
+      "fingerprint": "7c4d92b55a008a65e8e7f0191792b2f541cdc5c0c1a24543e7842efd2de54b6c",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.734667,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 62.555,
+          "end_seconds": 86.555
+        },
+        {
+          "start_seconds": 142.431,
+          "end_seconds": 166.431
+        },
+        {
+          "start_seconds": 188.36,
+          "end_seconds": 212.36
+        }
+      ]
+    },
+    {
+      "song_id": "4df558a499ae9d9d",
+      "title": "Mark Ronson - Uptown Funk",
+      "duration_seconds": 270.396395,
+      "vocal_trim_start_seconds": 0.2322,
+      "vocal_trim_end_seconds": 267.493878,
+      "source_sha256": "888dfef614e2b2c84bde48121a1540f4b7181f31dc70029c38c61e7e2e8dd5e9",
+      "vocals_sha256": "28fb1e672958ded8fc93445999cff4788a84cef3146284ac5cda1315affa0c10",
+      "fingerprint": "d0fbfb9c0f15744c89f02701fd29e55509c83b5ef2d3c54d29255b91b1fc6d85",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.722222,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 58.143,
+          "end_seconds": 74.143
+        },
+        {
+          "start_seconds": 132.029,
+          "end_seconds": 148.029
+        },
+        {
+          "start_seconds": 241.859,
+          "end_seconds": 257.859
+        }
+      ]
+    },
+    {
+      "song_id": "516f270b0bae7964",
+      "title": "Harry Styles - Adore You",
+      "duration_seconds": 218.511383,
+      "vocal_trim_start_seconds": 1.346757,
+      "vocal_trim_end_seconds": 213.159184,
+      "source_sha256": "e267461b515265abfbee8283f7e2ec95d393b4d0c02835a245d81ebb38d4261c",
+      "vocals_sha256": "cdf02ce03c7a819a85a7868be4ffe1d7a1a54c93b559bb58e3c4a2560ff21f0a",
+      "fingerprint": "0005e6481538d77b2a292ce3f6e03073c37d952e42488f0e1a569eb9e0028b2d",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.932339,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 39.288,
+          "end_seconds": 55.288
+        },
+        {
+          "start_seconds": 107.183,
+          "end_seconds": 123.183
+        }
+      ]
+    },
+    {
+      "song_id": "5342a857ef70a424",
+      "title": "Linkin Park - Numb",
+      "duration_seconds": 187.152993,
+      "vocal_trim_start_seconds": 12.770975,
+      "vocal_trim_end_seconds": 181.951565,
+      "source_sha256": "8cd678b489ca1411575902df7267ced74c7d2b684b0b1cb9f3c14cd45612ab79",
+      "vocals_sha256": "64fe34517e0cc4f2d3e1f0427e9352908c48bcb1fe9de4f7404721e7b620e389",
+      "fingerprint": "aec50a1384c52c1e38eb2ed705ae3f3d77d7b0ff1626c89ab05878dd6a5f7ce4",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.816603,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 34.737,
+          "end_seconds": 50.737
+        },
+        {
+          "start_seconds": 82.663,
+          "end_seconds": 98.663
+        }
+      ]
+    },
+    {
+      "song_id": "548b99b819a474eb",
+      "title": "G-Eazy x Bebe Rexha - Me, Myself & I (Official Video)",
+      "duration_seconds": 348.647642,
+      "vocal_trim_start_seconds": 1.346757,
+      "vocal_trim_end_seconds": 346.581043,
+      "source_sha256": "d5b8ac2d2a3f2082047b0dcdc56bfe842832974ec89c9313a66917f43ec24f8f",
+      "vocals_sha256": "23de96e9dcaa5dea7225c4f76ef85e7430a9284fa0556cd4dcf18f9eb74394b8",
+      "fingerprint": "3dc2ca783de72cbf61ee52e3d4cbafcc5afb7238ad265d2ea602f88a20c841ba",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.969246,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 105.186,
+          "end_seconds": 125.186
+        },
+        {
+          "start_seconds": 294.893,
+          "end_seconds": 314.893
+        }
+      ]
+    },
+    {
+      "song_id": "5c3de9e4394e9a76",
+      "title": "Enya - Only Time (Official 4K Music Video)",
+      "duration_seconds": 215.765351,
+      "vocal_trim_start_seconds": 11.563537,
+      "vocal_trim_end_seconds": 211.487347,
+      "source_sha256": "06511b7c74a0947c4293e127ac5cbfa6468e5e1cbd1f4457147e6e0848b91b42",
+      "vocals_sha256": "9902a827abad4a267ee26b130492bb7b60ba5f8cc4692384748f5aae8b1f3def",
+      "fingerprint": "4c8149c8dac82b617e466372086754810fb295a2b9aed7cd01b7e7084fc6b0d4",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.848029,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 61.486,
+          "end_seconds": 81.486
+        },
+        {
+          "start_seconds": 119.397,
+          "end_seconds": 139.397
+        },
+        {
+          "start_seconds": 167.323,
+          "end_seconds": 187.323
+        }
+      ]
+    },
+    {
+      "song_id": "5f0afe55b9885e83",
+      "title": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix) (Explicit)",
+      "duration_seconds": 236.181791,
+      "vocal_trim_start_seconds": 6.826667,
+      "vocal_trim_end_seconds": 224.211882,
+      "source_sha256": "e9e0beb6a465dd784d9578b4d69dbc9ca202cd67b40ca3cbb5c8bc5fa606bc67",
+      "vocals_sha256": "66a0f65978d8e3c4902a4e0458e3880834257f4f27e1af4e30ed41cab78696f5",
+      "fingerprint": "cc59b16db1bd5799cf872eae1f179d7e716d910f6bb7a544982578b17352f8a5",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.793862,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 116.657,
+          "end_seconds": 132.657
+        },
+        {
+          "start_seconds": 182.555,
+          "end_seconds": 198.555
+        }
+      ]
+    },
+    {
+      "song_id": "5ff3f52c51d16bc2",
+      "title": "Shawn Mendes, Camila Cabello - Señorita",
+      "duration_seconds": 205.375986,
+      "vocal_trim_start_seconds": 2.879274,
+      "vocal_trim_end_seconds": 197.462494,
+      "source_sha256": "b907f4b9cf8aba8b4f733549b8720a71da2be2dc78a2e6bae0bc593f2d2cad9d",
+      "vocals_sha256": "2603868b67e09d59f8ceb7b6f3b421271a0840f06ca56990c11119c781cdd8b4",
+      "fingerprint": "f9008a8933b5cad118b8179039a27f51b04fcba0b869245775ae01dfa3700927",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.753553,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 66.781,
+          "end_seconds": 90.781
+        },
+        {
+          "start_seconds": 140.666,
+          "end_seconds": 164.666
+        }
+      ]
+    },
+    {
+      "song_id": "60e4fdc750eef6db",
+      "title": "Sting - Shape of My Heart (Official Music Video)",
+      "duration_seconds": 280.775714,
+      "vocal_trim_start_seconds": 4.133152,
+      "vocal_trim_end_seconds": 265.079002,
+      "source_sha256": "df2de5b3655c13e76efa424834414b84f10e3b6e6a2f379d567a833c5ff538f4",
+      "vocals_sha256": "d5025039bca6babf47b145e1575a71274157fedeafbdf014c310a178c6a40c5e",
+      "fingerprint": "ae2509fb2a2874792d4656a1f5a59e35fe75eb09feceb50a53ab38a1b79a7f93",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.767331,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 125.945,
+          "end_seconds": 141.945
+        },
+        {
+          "start_seconds": 229.785,
+          "end_seconds": 245.785
+        }
+      ]
+    },
+    {
+      "song_id": "60f7e4e0b4467507",
+      "title": "Maroon 5 - Sugar",
+      "duration_seconds": 301.360204,
+      "vocal_trim_start_seconds": 10.541859,
+      "vocal_trim_end_seconds": 294.939864,
+      "source_sha256": "23fc96ea91bfd5bf7907d6dc49b1ba86de9e1ab18b7001110f86936e670a52ae",
+      "vocals_sha256": "1dc5eea78d4221dc3bebb17dcd7efc0d4e8245ee12293befab385189eb8bf7e0",
+      "fingerprint": "458e525ec7c684327bfaa5fe2e295a7a2e303f1f8ababbb8ad26677b1da10c44",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.793221,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 78.437,
+          "end_seconds": 98.437
+        },
+        {
+          "start_seconds": 142.338,
+          "end_seconds": 162.338
+        }
+      ]
+    },
+    {
+      "song_id": "63a40b2f629ae751",
+      "title": "Katy Perry - I Kissed A Girl",
+      "duration_seconds": 184.389683,
+      "vocal_trim_start_seconds": 3.761633,
+      "vocal_trim_end_seconds": 178.050612,
+      "source_sha256": "05664cdbed8f4416805057f913f388c454903babf945529ac9de93a36108b894",
+      "vocals_sha256": "7efbd3be38a950ba0f97e2670332c9f02c8187f412f9dfabe12e6dd156cba3ff",
+      "fingerprint": "1b2baecb910ae018e53c196b40eb63e2cda9d4ed944a6203a73ca501d513b06a",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 32.0,
+        "occurrences": 3
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 32.0,
+          "end_seconds": 62.0
+        },
+        {
+          "start_seconds": 95.0,
+          "end_seconds": 125.0
+        },
+        {
+          "start_seconds": 148.0,
+          "end_seconds": 177.0
+        }
+      ]
+    },
+    {
+      "song_id": "63dd1036bfa2bd40",
+      "title": "Ellie Goulding - Love Me Like You Do (Official Video)",
+      "duration_seconds": 249.208186,
+      "vocal_trim_start_seconds": 20.2478,
+      "vocal_trim_end_seconds": 246.270839,
+      "source_sha256": "c144fd851801adce5e5d9274e37299589912dda7e55fdd5a367e2a674750bbf2",
+      "vocals_sha256": "7571571fddd8bab16c4cbb692a0f50a72e1c60fe0368981e0430c088c6836bd9",
+      "fingerprint": "b316c97461543764a2709b1d887a1af582e0f0b3cfcb32226befd9fca0add4e7",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.786781,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 60.186,
+          "end_seconds": 80.186
+        },
+        {
+          "start_seconds": 193.98,
+          "end_seconds": 213.98
+        }
+      ]
+    },
+    {
+      "song_id": "67325541ea97ef8b",
+      "title": "Lewis Capaldi - Someone You Loved",
+      "duration_seconds": 185.248821,
+      "vocal_trim_start_seconds": 8.962902,
+      "vocal_trim_end_seconds": 174.33542,
+      "source_sha256": "5cb5c5695dde57727da58faeed305a8afdf718d733a86bc7387dc1585a4efa27",
+      "vocals_sha256": "988b62bd57b7d9655512dac8a8ab5ae4164bb1260e30bf8d315367348d21ac40",
+      "fingerprint": "42598e14dc43657e9327f69d574fb1b739046ff2a932befb24737db2a3b7286d",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.71585,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 40.914,
+          "end_seconds": 60.914
+        },
+        {
+          "start_seconds": 92.833,
+          "end_seconds": 112.833
+        },
+        {
+          "start_seconds": 134.769,
+          "end_seconds": 154.769
+        }
+      ]
+    },
+    {
+      "song_id": "6c39a324c2b66cc1",
+      "title": "Billie Eilish - bad guy",
+      "duration_seconds": 205.92619,
+      "vocal_trim_start_seconds": 1.904036,
+      "vocal_trim_end_seconds": 205.217959,
+      "source_sha256": "135145a56815f105562e4ea0802d4bf354c710751c4b669b45916394fc75fd48",
+      "vocals_sha256": "8e7226aa2b93d3c8e3477a7a67869feed1519c789525b4623ff7665fb6822b42",
+      "fingerprint": "81140379b16d9f4395fe5000c971d32d4462436fbb4163614d48239e67369ccb",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.690621,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 23.87,
+          "end_seconds": 43.87
+        },
+        {
+          "start_seconds": 53.824,
+          "end_seconds": 73.824
+        },
+        {
+          "start_seconds": 91.765,
+          "end_seconds": 111.765
+        },
+        {
+          "start_seconds": 149.676,
+          "end_seconds": 169.676
+        }
+      ]
+    },
+    {
+      "song_id": "6e17166ba3348b34",
+      "title": "Ed Sheeran & Justin Bieber - I Don't Care [Official Music Video]",
+      "duration_seconds": 222.807098,
+      "vocal_trim_start_seconds": 0.2322,
+      "vocal_trim_end_seconds": 216.967256,
+      "source_sha256": "6307f1fbeff5e4d4ce025fe4a8c959024789fb3b807017f6ed7cdbb8dec683ef",
+      "vocals_sha256": "7be49e8a48b5b456c5c15045623a32289c55983c62b27c99e6f4b47fed502ca8",
+      "fingerprint": "662a15716908a555b42b6877146f668e4e93749ecf76c44bd37b540939ec1269",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.851938,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 46.161,
+          "end_seconds": 70.161
+        },
+        {
+          "start_seconds": 177.958,
+          "end_seconds": 201.958
+        }
+      ]
+    },
+    {
+      "song_id": "714352b916c3d0c4",
+      "title": "Coldplay - A Sky Full Of Stars (Official Video)",
+      "duration_seconds": 253.643175,
+      "vocal_trim_start_seconds": 19.644082,
+      "vocal_trim_end_seconds": 246.224399,
+      "source_sha256": "4abfd44376701bc415c24d69de926a204f911ab1c363cfa51433d11fe098b827",
+      "vocals_sha256": "23e039f2ab09b1e96d4bc66009fae692d729034f7bbc4b9797e4f6cabc1d7cb0",
+      "fingerprint": "78f8e09ee9b385ef90521c4bddb62a8870d6407fa8e539fe35a8eca72b756a72",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.765427,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 155.434,
+          "end_seconds": 171.434
+        },
+        {
+          "start_seconds": 209.351,
+          "end_seconds": 225.351
+        }
+      ]
+    },
+    {
+      "song_id": "7209c197c4a4a7d7",
+      "title": "Ariana Grande - thank u, next (Official Video)",
+      "duration_seconds": 330.512857,
+      "vocal_trim_start_seconds": 0.510839,
+      "vocal_trim_end_seconds": 323.918367,
+      "source_sha256": "c40f880ab04c281c0206e8d6d87729fc22f99f93e1676b151aed40e9fbd6b854",
+      "vocals_sha256": "9aeff72f251742c05e84e940d7e375bd45f8f75de4c2204060fa780a08f238cb",
+      "fingerprint": "42d0702b4c951a244a9c039863f0886b7ef4ddfef445485c2ec33539fd210729",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.930054,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 182.23,
+          "end_seconds": 198.23
+        },
+        {
+          "start_seconds": 234.15,
+          "end_seconds": 250.15
+        }
+      ]
+    },
+    {
+      "song_id": "7aca09a7d0af1a98",
+      "title": "Zedd - I Want You To Know ft. Selena Gomez",
+      "duration_seconds": 246.87458,
+      "vocal_trim_start_seconds": 7.848345,
+      "vocal_trim_end_seconds": 238.515374,
+      "source_sha256": "d72e3effbea99e6c0e82fcd82f0c5799b88148a6a3d34b81c9ca1b2615a2a2b0",
+      "vocals_sha256": "58a5d2156b915b1c128f00e078a12c6618e87a11d4241a85ce75e73f25198fa6",
+      "fingerprint": "24c8d31096e489425492d9e4e714796b53fa8da56e17ee55b61436ce23062660",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.865481,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 33.808,
+          "end_seconds": 49.808
+        },
+        {
+          "start_seconds": 131.657,
+          "end_seconds": 147.657
+        }
+      ]
+    },
+    {
+      "song_id": "7b53db016956f66a",
+      "title": "Alan Walker - Faded",
+      "duration_seconds": 212.485828,
+      "vocal_trim_start_seconds": 11.517098,
+      "vocal_trim_end_seconds": 196.765896,
+      "source_sha256": "5d9ea1ad1d0147eb644a26853f47134218b4d5818b7f8ee785611f0b3871ca35",
+      "vocals_sha256": "b72e9eaf0ba339e3da222411867d8a1dbbb07bee4ac2b00673c54c3391b16401",
+      "fingerprint": "7fce71b9796b17bd00769f968245234b2cec8c46466c1f0b166b2fe1773f57eb",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.766732,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 33.483,
+          "end_seconds": 57.483
+        },
+        {
+          "start_seconds": 71.425,
+          "end_seconds": 95.425
+        },
+        {
+          "start_seconds": 111.363,
+          "end_seconds": 135.363
+        },
+        {
+          "start_seconds": 169.273,
+          "end_seconds": 193.273
+        }
+      ]
+    },
+    {
+      "song_id": "7bc11238e392d0fe",
+      "title": "Carly Rae Jepsen - I Really Like You",
+      "duration_seconds": 208.689365,
+      "vocal_trim_start_seconds": 2.321995,
+      "vocal_trim_end_seconds": 204.056961,
+      "source_sha256": "4d6a57a95cb5c8908b1ace3d94d076de379202a4530c4905817d96d2b111cd81",
+      "vocals_sha256": "b730434e332b86e327a97cb105e1041023b85626ae02fba735fc7b05d7b7ebcf",
+      "fingerprint": "000dcf2a5605525ba7f1cf9831706046f1bd1f3f9a4d68c4acd239eab43823dd",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.803786,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 42.26,
+          "end_seconds": 58.26
+        },
+        {
+          "start_seconds": 156.085,
+          "end_seconds": 172.085
+        }
+      ]
+    },
+    {
+      "song_id": "7cdec4d651d13e21",
+      "title": "Lukas Graham - 7 Years",
+      "duration_seconds": 239.200385,
+      "vocal_trim_start_seconds": 20.851519,
+      "vocal_trim_end_seconds": 232.385306,
+      "source_sha256": "482db763f20551bf6a6d5dfa12b0cde0bbdff83c097b53971c40f8b1094efc30",
+      "vocals_sha256": "01a93ef16cbc09835b65fa43b85417f6d1c43b3dc4f6532e61f70b5e220b48cd",
+      "fingerprint": "93bc49ff14773c763c7fb43af0e9920cccbca4d0cf9427cec30528a86932c945",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.739145,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 66.781,
+          "end_seconds": 90.781
+        },
+        {
+          "start_seconds": 98.731,
+          "end_seconds": 122.731
+        },
+        {
+          "start_seconds": 146.657,
+          "end_seconds": 170.657
+        }
+      ]
+    },
+    {
+      "song_id": "7d8f79ef3f478a5d",
+      "title": "Shawn Mendes - Stitches (Official Music Video)",
+      "duration_seconds": 239.757664,
+      "vocal_trim_start_seconds": 0.0,
+      "vocal_trim_end_seconds": 237.400816,
+      "source_sha256": "772c45c30f52db082d92640284983450d58c5bc454586565162d39d37a55aaa1",
+      "vocals_sha256": "623b1d3782c4d641644fe86fdf584b495a972d938641dbc779715ffdf5fb8568",
+      "fingerprint": "7da8a050a00196988485019d2240d68f97deedaf5478e987effd2aec01f28abc",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.853222,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 55.914,
+          "end_seconds": 75.914
+        },
+        {
+          "start_seconds": 119.815,
+          "end_seconds": 139.815
+        }
+      ]
+    },
+    {
+      "song_id": "81a90bde4ba56415",
+      "title": "ZAYN - PILLOWTALK (Official Video)",
+      "duration_seconds": 206.587959,
+      "vocal_trim_start_seconds": 1.207438,
+      "vocal_trim_end_seconds": 202.199365,
+      "source_sha256": "b42649a24a4347076c431b1f62fd03a556175eb20b0d791270120160772267e6",
+      "vocals_sha256": "56a4d83fb8e991d213fad1212dcf68f86c04950e262675eafa562b5e7ac0a68b",
+      "fingerprint": "c159ace0d4b24854d38724b302c2e255b234a310c2c642be40bc53291c2d7683",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.759275,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 131.007,
+          "end_seconds": 147.007
+        },
+        {
+          "start_seconds": 184.924,
+          "end_seconds": 200.924
+        }
+      ]
+    },
+    {
+      "song_id": "839804b444bb2488",
+      "title": "Jonas Brothers - Sucker (Official Video)",
+      "duration_seconds": 199.749683,
+      "vocal_trim_start_seconds": 3.854512,
+      "vocal_trim_end_seconds": 182.555283,
+      "source_sha256": "ecff57b4da5a4eedfb97d84722de3353a821caf870e9d42a7e8a7af15ae24457",
+      "vocals_sha256": "a5991614b2433cd44f262cee80b3d8ed0a7910335323b4e9b91f2c0daade4a0a",
+      "fingerprint": "fe4470af50b0375108e0d8c4a3b746948c72400ba3d91bbe07f53550b5d1bacf",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.758839,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 35.805,
+          "end_seconds": 55.805
+        },
+        {
+          "start_seconds": 143.639,
+          "end_seconds": 163.639
+        }
+      ]
+    },
+    {
+      "song_id": "856a0c42335336cb",
+      "title": "Sam Smith - Writing's On The Wall (from Spectre) (Official Music Video)",
+      "duration_seconds": 284.456077,
+      "vocal_trim_start_seconds": 0.928798,
+      "vocal_trim_end_seconds": 274.413424,
+      "source_sha256": "c19cfc090c1c99c41321cf756e7c1f98891fbdf5c9abc6aace525c71a6c212ee",
+      "vocals_sha256": "668d6907901a2efaf2c511fc092731ec3d77ae2da1be70ef50d685fab5e32875",
+      "fingerprint": "0b1a32faf4671537ca272091c99f829e357b01d7e9ab33b2081d70d6e89d9a66",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.88982,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 164.676,
+          "end_seconds": 188.676
+        },
+        {
+          "start_seconds": 234.568,
+          "end_seconds": 258.568
+        }
+      ]
+    },
+    {
+      "song_id": "85ba345284db94e4",
+      "title": "Billie Eilish - Therefore I Am",
+      "duration_seconds": 298.875669,
+      "vocal_trim_start_seconds": 33.994014,
+      "vocal_trim_end_seconds": 265.171882,
+      "source_sha256": "8fb06de9d70e233e3c1e320a407009d3c95ac495f9a8c4328be3a9e074c9b84a",
+      "vocals_sha256": "a8517d06fc0548f72fb6db7e257360f9a1cd82845e4d9482b9242f68ee04b46f",
+      "fingerprint": "b778bedcfaea05a37924c3cede90e4e3ee6a3ca6393fc2245c36367a30bc0774",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.957421,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 41.982,
+          "end_seconds": 61.982
+        },
+        {
+          "start_seconds": 87.911,
+          "end_seconds": 107.911
+        }
+      ]
+    },
+    {
+      "song_id": "85d3367e3623f426",
+      "title": "BTS - Dynamite",
+      "duration_seconds": 223.364376,
+      "vocal_trim_start_seconds": 0.789478,
+      "vocal_trim_end_seconds": 218.081814,
+      "source_sha256": "454cf66d9a70cfdb271eadf791764d0fca929c6f19ddcc63c6a658575e8f995b",
+      "vocals_sha256": "a6a9ae9a0e794f10bb005339cc3970ae59754a3bb3e286d77fbaa37b454c1575",
+      "fingerprint": "0d12be031325937fcdbbf836e7ada9664450de311bf639e49e64291e9e9e7edf",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.754177,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 26.749,
+          "end_seconds": 42.749
+        },
+        {
+          "start_seconds": 144.567,
+          "end_seconds": 160.567
+        }
+      ]
+    },
+    {
+      "song_id": "87e764030e38fff6",
+      "title": "Survivor - Eye Of The Tiger (Official HD Video)",
+      "duration_seconds": 244.842653,
+      "vocal_trim_start_seconds": 49.690703,
+      "vocal_trim_end_seconds": 229.691791,
+      "source_sha256": "bb9900153234a6e528230f428cc359a5ffac8d042cb4a7c2a51266cf8b74bcc5",
+      "vocals_sha256": "ee23036264cdb124f8b15f1c95bde259330b664384818ecb946c5fbee4a850f1",
+      "fingerprint": "b4268cfd404ad676f6059af2ad287567b24b16c2c46c291bc7ada7e243985ba6",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.902921,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 81.641,
+          "end_seconds": 101.641
+        },
+        {
+          "start_seconds": 165.512,
+          "end_seconds": 185.512
+        }
+      ]
+    },
+    {
+      "song_id": "891211286e4f02f7",
+      "title": "The Chainsmokers - Closer (Lyric) ft. Halsey",
+      "duration_seconds": 261.805011,
+      "vocal_trim_start_seconds": 10.634739,
+      "vocal_trim_end_seconds": 259.506213,
+      "source_sha256": "11c060b1c3a3e532aa596e8d88f64962c01dc0a18cc7c16e8f6bd303daaa839b",
+      "vocals_sha256": "6b25e0f25e0ca71f0b513f2380c5005d32794e172a29fac2523529a6293e0c88",
+      "fingerprint": "404dff94d962c0515409cca288f9183afa8e3cf8d046eeee53abfba87f72c1a2",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.818583,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 46.579,
+          "end_seconds": 66.579
+        },
+        {
+          "start_seconds": 132.447,
+          "end_seconds": 152.447
+        },
+        {
+          "start_seconds": 170.388,
+          "end_seconds": 190.388
+        }
+      ]
+    },
+    {
+      "song_id": "89cf9b29900af042",
+      "title": "James Arthur - Say You Won't Let Go",
+      "duration_seconds": 210.721111,
+      "vocal_trim_start_seconds": 11.145578,
+      "vocal_trim_end_seconds": 202.942404,
+      "source_sha256": "fe86d53841cbd2eed74c7ccb8fc5f1dd7e5419356f979105985d928c06139697",
+      "vocals_sha256": "486ce0b022ace6b610d47ed2bcb4c123722bfa4f3ab6ecb915ae28f88a313918",
+      "fingerprint": "e5f0e234409130f3701c9fcff9cece4c88d05c3fb7534c42c79fdc90aa6f4cd3",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 50.0,
+          "end_seconds": 81.0
+        },
+        {
+          "start_seconds": 121.0,
+          "end_seconds": 152.0
+        },
+        {
+          "start_seconds": 182.0,
+          "end_seconds": 201.0
+        }
+      ]
+    },
+    {
+      "song_id": "8da26c7bee72d22c",
+      "title": "Adele - Rolling in the Deep",
+      "duration_seconds": 233.883016,
+      "vocal_trim_start_seconds": 4.736871,
+      "vocal_trim_end_seconds": 225.558639,
+      "source_sha256": "0ebf56cc58f445b36bb0eb4ab306095a0d6e756b4501a709f74d5d0903458331",
+      "vocals_sha256": "cc4d35f1d07bc196c11ec28d82eefe025fbc8856487603b5222fd73d0075b4ab",
+      "fingerprint": "c895a3fb3a51405752445d6cd887073088604681bebe7cdaf156560c3ea94b37",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": "harmonix_human_annotation_same_official_video_clock_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 58.8,
+          "end_seconds": 78.3
+        },
+        {
+          "start_seconds": 113.7,
+          "end_seconds": 151.4
+        },
+        {
+          "start_seconds": 186.8,
+          "end_seconds": 224.6
+        }
+      ]
+    },
+    {
+      "song_id": "9208d15658afce44",
+      "title": "Lewis Capaldi - Before You Go",
+      "duration_seconds": 246.294082,
+      "vocal_trim_start_seconds": 17.461406,
+      "vocal_trim_end_seconds": 244.320363,
+      "source_sha256": "f193e6b52cc6dc30d47531b78c90604b71a74f8cf93abe021fba6f4ba15e79f4",
+      "vocals_sha256": "7261b57dc4eafb841c3801fe755eb576f40aea151b704159d1b3327436c78ece",
+      "fingerprint": "eabba74bd93e075500c7c171328190f14d51490dcf8559c4a52ea828c25d140a",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.811321,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 67.384,
+          "end_seconds": 83.384
+        },
+        {
+          "start_seconds": 127.292,
+          "end_seconds": 143.292
+        },
+        {
+          "start_seconds": 183.205,
+          "end_seconds": 199.205
+        },
+        {
+          "start_seconds": 213.159,
+          "end_seconds": 229.159
+        }
+      ]
+    },
+    {
+      "song_id": "927cb57224703fbe",
+      "title": "Sia - Chandelier",
+      "duration_seconds": 231.317211,
+      "vocal_trim_start_seconds": 11.609977,
+      "vocal_trim_end_seconds": 219.707211,
+      "source_sha256": "72a789230186fad66e50da956254219e06231328bd201cf9249e4bc348fce675",
+      "vocals_sha256": "92b0c57f68948e0cd7c615d50b8bb04a0ed563513c83548e061b9db13368b87c",
+      "fingerprint": "d3980c152cf6677dae8e2e2ccfa4cc1a83b706df3aedcfa11f493c0d1e05ed71",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.77003,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 35.573,
+          "end_seconds": 51.573
+        },
+        {
+          "start_seconds": 123.437,
+          "end_seconds": 139.437
+        }
+      ]
+    },
+    {
+      "song_id": "98fb20516b199609",
+      "title": "Maroon 5 - Don't Wanna Know (Official Music Video)",
+      "duration_seconds": 378.72907,
+      "vocal_trim_start_seconds": 5.944308,
+      "vocal_trim_end_seconds": 373.74839,
+      "source_sha256": "211df9b556873ea7865aefd64f2bbb68351abcd47692777128ed3101c11b569c",
+      "vocals_sha256": "711f83bc5fdedea289fb238424f1ebdaa2c2dc8d5a6477a226bb59c83fedc5ff",
+      "fingerprint": "872f7e1d03e44598a7fe7a890726b463d6859a502443e2215ba6dbf031432bde",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.733138,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 89.815,
+          "end_seconds": 113.815
+        },
+        {
+          "start_seconds": 137.741,
+          "end_seconds": 161.741
+        },
+        {
+          "start_seconds": 269.537,
+          "end_seconds": 293.537
+        }
+      ]
+    },
+    {
+      "song_id": "9a201b13a302994c",
+      "title": "Ace of Base - All That She Wants (Official Music Video)",
+      "duration_seconds": 213.449456,
+      "vocal_trim_start_seconds": 0.696599,
+      "vocal_trim_end_seconds": 194.39746,
+      "source_sha256": "8f60b61a70d8b6b1cdda061688765fcbd556db804cb4fd796cecd8ad1c2e94fe",
+      "vocals_sha256": "20d3e17dd74b9f66860d63d68b248200b86a0fd7b80bd56bb8a80712c51fb54c",
+      "fingerprint": "af733e5c34404a4d16a321d6980765dcb66110639da9b3d8189d4b9a5d8a0565",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.850335,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 72.586,
+          "end_seconds": 88.586
+        },
+        {
+          "start_seconds": 178.422,
+          "end_seconds": 194.422
+        }
+      ]
+    },
+    {
+      "song_id": "9af20ad8ae0198b5",
+      "title": "Ariana Grande & Justin Bieber - Stuck with U",
+      "duration_seconds": 257.010091,
+      "vocal_trim_start_seconds": 4.87619,
+      "vocal_trim_end_seconds": 246.688798,
+      "source_sha256": "abc48bc963cd164537bf6f86cd2047dda1a51f655d2fd428515431d3fd9a1c67",
+      "vocals_sha256": "05b1725140159b5fe58bf21ddd69587924f51080de93d7e07d4a45f7498b3ce4",
+      "fingerprint": "22350e0e8cf26ef9469bbd27f36fc235aa930fb7c5499d4a9ca52f8b210f27b5",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.701432,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 52.802,
+          "end_seconds": 72.802
+        },
+        {
+          "start_seconds": 116.703,
+          "end_seconds": 136.703
+        },
+        {
+          "start_seconds": 188.592,
+          "end_seconds": 208.592
+        }
+      ]
+    },
+    {
+      "song_id": "9ce5dc54e4627eac",
+      "title": "Dua Lipa - Break My Heart",
+      "duration_seconds": 229.204195,
+      "vocal_trim_start_seconds": 9.845261,
+      "vocal_trim_end_seconds": 223.097324,
+      "source_sha256": "a03a031461686ae6ea172f85a37ee53dd1e42b552f1b6434ad053644caacca99",
+      "vocals_sha256": "523f2aff6c13f932f7d0b25596ba2d5da0c13526bf9364d60dbbb4e9dfb8dda4",
+      "fingerprint": "e04bffeae60323a4d6d7f3a7228544ab7b4b5e754ad970d237a548462c0b29ed",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.717392,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 45.79,
+          "end_seconds": 69.79
+        },
+        {
+          "start_seconds": 117.679,
+          "end_seconds": 141.679
+        }
+      ]
+    },
+    {
+      "song_id": "a2121158c82e27f6",
+      "title": "Selena Gomez - Kill Em With Kindness",
+      "duration_seconds": 223.944966,
+      "vocal_trim_start_seconds": 4.458231,
+      "vocal_trim_end_seconds": 211.858866,
+      "source_sha256": "81794e07c9665c52c3809a15b41741de43f083ac7c13582ab6f1d2d9f0466130",
+      "vocals_sha256": "0a98c4901ba47ea723f6e67e1d114449e4676f5842816d4187077aa463adee89",
+      "fingerprint": "5fba23c6fe3475b9c99a7d4ff910234e3b990380130102ee73a1585401b50d75",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.828829,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 44.397,
+          "end_seconds": 64.397
+        },
+        {
+          "start_seconds": 108.298,
+          "end_seconds": 128.298
+        },
+        {
+          "start_seconds": 172.199,
+          "end_seconds": 192.199
+        }
+      ]
+    },
+    {
+      "song_id": "a5e8239bbf99a651",
+      "title": "The Weeknd - Starboy ft. Daft Punk (Official Video) ft. Daft Punk",
+      "duration_seconds": 273.264966,
+      "vocal_trim_start_seconds": 32.972336,
+      "vocal_trim_end_seconds": 266.42576,
+      "source_sha256": "c6866cbc3f790c76fd09dd4e12598aba154126a6582d3e6fcb99586b8f3d4b03",
+      "vocals_sha256": "d5cbe7c849ed28f4a910b0c06239eff798d92b40e47643630586190b31630ede",
+      "fingerprint": "8b664b094d8c7eac9f9f7d5bbfc0ed835ed6a42f3803d9182be3e980e7f7e116",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.973755,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 82.895,
+          "end_seconds": 98.895
+        },
+        {
+          "start_seconds": 144.8,
+          "end_seconds": 160.8
+        },
+        {
+          "start_seconds": 206.704,
+          "end_seconds": 222.704
+        }
+      ]
+    },
+    {
+      "song_id": "a9223c7a03d920b0",
+      "title": "Sam Smith - How Do You Sleep? (Official Music Video)",
+      "duration_seconds": 228.778685,
+      "vocal_trim_start_seconds": 16.346848,
+      "vocal_trim_end_seconds": 217.663855,
+      "source_sha256": "cd3abf2b005c26bc6f891a0ae5e846b6f4e8d3dbe458b68642068b29413c12d0",
+      "vocals_sha256": "27cd37826ba84325b3e2f5350b8bf192795aa8bb795fc76d725638c83144ab31",
+      "fingerprint": "1c3b59e856d3b19c6455e7905b3c254b11b91cfbec16ea6aecfb5686eb4945a7",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.764705,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 84.242,
+          "end_seconds": 100.242
+        },
+        {
+          "start_seconds": 142.153,
+          "end_seconds": 158.153
+        }
+      ]
+    },
+    {
+      "song_id": "a99a50e96d5dfcbd",
+      "title": "Coldplay - The Scientist",
+      "duration_seconds": 265.206735,
+      "vocal_trim_start_seconds": 1.904036,
+      "vocal_trim_end_seconds": 256.394739,
+      "source_sha256": "ead373ec991249943c7e5120e8e9447071c8979c0b2d166d09b0f21b49b9dbfa",
+      "vocals_sha256": "4d4f7a375f2cdfe4e189fa3fc2d5be889d3a9797b1cf88719d919199fe50ab21",
+      "fingerprint": "4c5645219f1b5103e7e7ac0055a1be211dba535fdcebf3f42787d2da8d9b986f",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.68163,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 28.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 37.849,
+          "end_seconds": 65.849
+        },
+        {
+          "start_seconds": 109.738,
+          "end_seconds": 137.738
+        },
+        {
+          "start_seconds": 165.651,
+          "end_seconds": 193.651
+        }
+      ]
+    },
+    {
+      "song_id": "ad069dcabfb1514c",
+      "title": "The Chainsmokers - Don't Let Me Down (Official Video) ft. Daya",
+      "duration_seconds": 217.849637,
+      "vocal_trim_start_seconds": 0.2322,
+      "vocal_trim_end_seconds": 204.196281,
+      "source_sha256": "6671470555b8e68d4705964fc3ebadffb3567323efb6b914025d97f824c83001",
+      "vocals_sha256": "b7344f4c76545c83be2072a92e43e68288080b98ab3e55731656b6cb78c6b45a",
+      "fingerprint": "6e3ad5204d8a43ed1c18ae5216a22303e0c59020e9551d66df10fa0944475d95",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.865145,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 52.152,
+          "end_seconds": 76.152
+        },
+        {
+          "start_seconds": 100.078,
+          "end_seconds": 124.078
+        }
+      ]
+    },
+    {
+      "song_id": "af196e65df8d7449",
+      "title": "Amy Winehouse - Back To Black",
+      "duration_seconds": 240.047914,
+      "vocal_trim_start_seconds": 16.161088,
+      "vocal_trim_end_seconds": 234.428662,
+      "source_sha256": "f09b15e1289aab9ea2e7a2f92d624cb9de8fea33246c0df1c44ff234b821a3f2",
+      "vocals_sha256": "9f0ffdce9178254ee9c24e7e0e14dcaf79a01f4131f65914c29cbaad83c651d5",
+      "fingerprint": "eb16686d1d8e030d49b6530018c74a2d310064ebbc83413187ba78cec226d0b9",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.79612,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 26.146,
+          "end_seconds": 46.146
+        },
+        {
+          "start_seconds": 108.019,
+          "end_seconds": 128.019
+        }
+      ]
+    },
+    {
+      "song_id": "af65a7b5dda861ad",
+      "title": "Jason Derulo - \"Want To Want Me\" (Official Video)",
+      "duration_seconds": 227.648458,
+      "vocal_trim_start_seconds": 14.721451,
+      "vocal_trim_end_seconds": 218.267574,
+      "source_sha256": "476799055d7bc008419e8649b42f1850d33f31a92a06fa9770d48bea04824490",
+      "vocals_sha256": "732e69a2dcd6fb92286abe8282f4aeed0bb31e47b0936853eaf2d7b7dd1a9e81",
+      "fingerprint": "99c2b2a9bfb503507f4bf933b3f8b21139fce89966e727ded8dbb4db7ac115f6",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.825592,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 72.632,
+          "end_seconds": 88.632
+        },
+        {
+          "start_seconds": 190.45,
+          "end_seconds": 206.45
+        }
+      ]
+    },
+    {
+      "song_id": "b355790b3c061feb",
+      "title": "Ed Sheeran - Photograph",
+      "duration_seconds": 274.227687,
+      "vocal_trim_start_seconds": 8.730703,
+      "vocal_trim_end_seconds": 254.908662,
+      "source_sha256": "2c4d60019ab9017364b03fdd84902ecc63af8da32809652070c0fdcde317e7a5",
+      "vocals_sha256": "4ee39e872ec9bf876c624f6632ab0e0474df73fad17946b533ea14d33bcfed13",
+      "fingerprint": "a15ed9d5f8649943f7e2fdfc8c488177264d619d382b993f446749ed37e41ee6",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.688347,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 28.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 22.709,
+          "end_seconds": 50.709
+        },
+        {
+          "start_seconds": 70.635,
+          "end_seconds": 98.635
+        },
+        {
+          "start_seconds": 116.564,
+          "end_seconds": 144.564
+        },
+        {
+          "start_seconds": 166.487,
+          "end_seconds": 194.487
+        }
+      ]
+    },
+    {
+      "song_id": "b8cada8759816264",
+      "title": "Daft Punk - Get Lucky",
+      "duration_seconds": 248.639297,
+      "vocal_trim_start_seconds": 14.767891,
+      "vocal_trim_end_seconds": 223.654603,
+      "source_sha256": "6373b3cb9824b0eeebf3c48901bd48f965bdd61cc669de731afcf0dcd58fe635",
+      "vocals_sha256": "976c389f9b867524a2eab67bfd0c8d2c96e3c544f5cdbcdc29ab4b0f545accbc",
+      "fingerprint": "da46bd16a6566ba1b81d822fe2275cd1740388da75c83f28e31ce7aab5a113a9",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.829028,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 32.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 42.725,
+          "end_seconds": 74.725
+        },
+        {
+          "start_seconds": 108.623,
+          "end_seconds": 140.623
+        }
+      ]
+    },
+    {
+      "song_id": "b949923b340c505a",
+      "title": "Adele - Skyfall (Official Lyric Video)",
+      "duration_seconds": 289.322653,
+      "vocal_trim_start_seconds": 33.390295,
+      "vocal_trim_end_seconds": 282.958367,
+      "source_sha256": "d19da3da7146b89d2f5b0089c1bf83bef39826afd607fffe05f165c858e7b7e7",
+      "vocals_sha256": "ac9a4158660f1222929d1c672eaf90e18e33a8f958ebd974221ddc9994453275",
+      "fingerprint": "4b13e5422d3972bc56165272aaf9dff30f3390c4bbb9f3e456a78713bf391be5",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 83.0,
+          "end_seconds": 114.0
+        },
+        {
+          "start_seconds": 147.0,
+          "end_seconds": 178.0
+        },
+        {
+          "start_seconds": 223.0,
+          "end_seconds": 250.0
+        }
+      ]
+    },
+    {
+      "song_id": "ba37f2f83001dd0b",
+      "title": "Halsey - Without Me",
+      "duration_seconds": 236.239841,
+      "vocal_trim_start_seconds": 32.322177,
+      "vocal_trim_end_seconds": 222.679365,
+      "source_sha256": "07e05374f04feeb235a722bb09d901ecdb02ccb0f52f8239b831d85372d57392",
+      "vocals_sha256": "d3cceb4e809e36d1f2e2c320173a1611a198e1bcc5c5e7b24ea6a9d2c5286d21",
+      "fingerprint": "998674c99e50bba91b2d90572301bd38337eb50522acf39eedada79ea75f382a",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.71904,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 130.171,
+          "end_seconds": 150.171
+        },
+        {
+          "start_seconds": 186.085,
+          "end_seconds": 206.085
+        }
+      ]
+    },
+    {
+      "song_id": "be33452a171fc704",
+      "title": "Charlie Puth - We Don't Talk Anymore",
+      "duration_seconds": 230.446463,
+      "vocal_trim_start_seconds": 4.133152,
+      "vocal_trim_end_seconds": 217.478095,
+      "source_sha256": "e31b63804bf0f7dbf644446375031b36be2121c8aca18c4e17215d397095ab4e",
+      "vocals_sha256": "1f9bad8a775940df16067c6fd9f7558eeacf0f2e6a2378d8f01b0cd4f7493de3",
+      "fingerprint": "82e188fb85d9f7d85c72783e0d5103c0188234e2477f70042c538501b2abbf70",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.757146,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 66.038,
+          "end_seconds": 90.038
+        },
+        {
+          "start_seconds": 113.964,
+          "end_seconds": 137.964
+        },
+        {
+          "start_seconds": 161.89,
+          "end_seconds": 185.89
+        }
+      ]
+    },
+    {
+      "song_id": "beb25256606cc37e",
+      "title": "No Doubt - Don't Speak (Official 4K Music Video)",
+      "duration_seconds": 300.965465,
+      "vocal_trim_start_seconds": 3.808073,
+      "vocal_trim_end_seconds": 297.494059,
+      "source_sha256": "053b099a28e77fe4a23ca5743cb3c39b3b7e3d25ad76858e29dbc1b9c690598b",
+      "vocals_sha256": "35d7cf2aa9cec9076882467461c704b4e4896335388750e9571f9fe101d2bae1",
+      "fingerprint": "0d474a42a1ef551699085d27afcc0e8d439dfb57b6447fda5927a4340217d921",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.688888,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 41.749,
+          "end_seconds": 61.749
+        },
+        {
+          "start_seconds": 101.657,
+          "end_seconds": 121.657
+        },
+        {
+          "start_seconds": 135.605,
+          "end_seconds": 155.605
+        },
+        {
+          "start_seconds": 177.54,
+          "end_seconds": 197.54
+        }
+      ]
+    },
+    {
+      "song_id": "c01f9ff1f3b7e705",
+      "title": "Justin Bieber - Love Yourself (PURPOSE : The Movement)",
+      "duration_seconds": 272.219161,
+      "vocal_trim_start_seconds": 0.13932,
+      "vocal_trim_end_seconds": 239.397732,
+      "source_sha256": "39e405f60cc5024cdbb63b76a7e67b9047451fb6abaa93dfcef152f59d41d3e3",
+      "vocals_sha256": "397a4d2a7fcc1c8d12cdf558b290adc8b332d3b0c19d1b166d4c4e9499de4b6b",
+      "fingerprint": "93a7a2496e9c812b9582439d7c022429111e6f7ce5e99bfab036a9f63cd24bf2",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.72353,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 86.007,
+          "end_seconds": 106.007
+        },
+        {
+          "start_seconds": 181.859,
+          "end_seconds": 201.859
+        }
+      ]
+    },
+    {
+      "song_id": "c0c9cc1b6ade4ab0",
+      "title": "Imagine Dragons - Whatever It Takes (Official Music Video)",
+      "duration_seconds": 219.904603,
+      "vocal_trim_start_seconds": 11.563537,
+      "vocal_trim_end_seconds": 209.76907,
+      "source_sha256": "138fef9727b13ef3536c33f59fb4b82cee0b719b40b26baf2cdd702ed0c346c0",
+      "vocals_sha256": "66f5b378da33aba8f2f2847e212e75d601d9b17dfb1d2b49740acc5e0f180965",
+      "fingerprint": "1cc88dc33de8e2e6de5c881bcbdbf45b6df2ac921a13a8000b325e93d77afe6c",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.766533,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 53.499,
+          "end_seconds": 69.499
+        },
+        {
+          "start_seconds": 191.286,
+          "end_seconds": 207.286
+        }
+      ]
+    },
+    {
+      "song_id": "c14cfa8dd3541e74",
+      "title": "Ariana Grande - 7 rings",
+      "duration_seconds": 184.900522,
+      "vocal_trim_start_seconds": 0.696599,
+      "vocal_trim_end_seconds": 165.558277,
+      "source_sha256": "f15254e27e7925b09dc41264536739e558faa2f857ce1957e3faa5dcf9afa5c6",
+      "vocals_sha256": "4e3b3bae9df965a498d29145760d54059e6ce343a241c51bcf8ae489f0db8d47",
+      "fingerprint": "365058bba310cbc5e3bf9083345a3365742b12fbd63c127b6857fa54722e0c9e",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.688084,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 54.613,
+          "end_seconds": 74.613
+        },
+        {
+          "start_seconds": 102.539,
+          "end_seconds": 122.539
+        },
+        {
+          "start_seconds": 128.499,
+          "end_seconds": 148.499
+        }
+      ]
+    },
+    {
+      "song_id": "c17e53615e8cec19",
+      "title": "DJ Snake - Let Me Love You (Official Music Video) ft. Justin Bieber",
+      "duration_seconds": 205.322472,
+      "vocal_trim_start_seconds": 0.0,
+      "vocal_trim_end_seconds": 201.827846,
+      "source_sha256": "aead6c0e357d3bb519be31d66d748477479e71a081ad1a46d84e6cd93a00f1a0",
+      "vocals_sha256": "99c7f54d7e72d3dd6daed2012ab902c232c1bca0c44486ab65966f242f54aea7",
+      "fingerprint": "9c98834ed938e9a87806c6c93597c13227084f49b9c1aab9d92f67745e840145",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.7703,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 127.803,
+          "end_seconds": 147.803
+        },
+        {
+          "start_seconds": 175.729,
+          "end_seconds": 195.729
+        }
+      ]
+    },
+    {
+      "song_id": "c222a2c2d85b2af0",
+      "title": "James Bay - Let It Go",
+      "duration_seconds": 258.426508,
+      "vocal_trim_start_seconds": 20.7122,
+      "vocal_trim_end_seconds": 246.131519,
+      "source_sha256": "fb7338129ac266d8d4d34bfdf6f94a6947426724f9c694eaef65816fc0bae03d",
+      "vocals_sha256": "b8cd8569779cf1dc1d64d92d0f4dd475cdaf2306bc583436e65d5dfedb5485e7",
+      "fingerprint": "6746c86400e7bdc0bcaa62fd9bc2c69bc91d58f9915497fa0cf8e2bb97246711",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.833174,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 146.518,
+          "end_seconds": 162.518
+        },
+        {
+          "start_seconds": 224.398,
+          "end_seconds": 240.398
+        }
+      ]
+    },
+    {
+      "song_id": "c65c05499385aaa9",
+      "title": "Jessie J - Flashlight (from Pitch Perfect 2) (Official Video)",
+      "duration_seconds": 232.420159,
+      "vocal_trim_start_seconds": 8.730703,
+      "vocal_trim_end_seconds": 213.670023,
+      "source_sha256": "2ef72db1b9a1e5141d4457cdc0e3cc2cb24b9f88e51cb9951d6531736307fdde",
+      "vocals_sha256": "3b6906dbd8525143f2440d3967becf6af5d3ac14ad9728da683f3424f80d7a58",
+      "fingerprint": "29f4aebe17b9f77872ed8a787a981c5d22c3508677e2d79a61553127820378d9",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.892685,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 58.654,
+          "end_seconds": 78.654
+        },
+        {
+          "start_seconds": 110.573,
+          "end_seconds": 130.573
+        }
+      ]
+    },
+    {
+      "song_id": "ca65a26ed850b578",
+      "title": "Ariana Grande - breathin",
+      "duration_seconds": 202.624014,
+      "vocal_trim_start_seconds": 1.207438,
+      "vocal_trim_end_seconds": 193.607982,
+      "source_sha256": "b6d5ae49e9696fbcf6eb765f18b1f89004a8e2eecee49201873a0d2b4af79fab",
+      "vocals_sha256": "e92ba72a8649fb945bcf947dbf505161889c9db2ef58b592e20fc524b0f41ae1",
+      "fingerprint": "02d645d50beb14867c8b817476061540b284889e861448e43d9205780b8378b8",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.866808,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 53.127,
+          "end_seconds": 69.127
+        },
+        {
+          "start_seconds": 113.035,
+          "end_seconds": 129.035
+        }
+      ]
+    },
+    {
+      "song_id": "cb2783faad8f01d6",
+      "title": "Ed Sheeran - Castle On The Hill [Official Music Video]",
+      "duration_seconds": 288.00873,
+      "vocal_trim_start_seconds": 24.752472,
+      "vocal_trim_end_seconds": 270.140952,
+      "source_sha256": "d2c301a2e74b99fa43a77993d1615cc07d7f322541a181167b33fc97c1293346",
+      "vocals_sha256": "ad0fc9c4efb830ef967ac0ce71af813c3e93276dcb2c3016ea64b3852f0b5c86",
+      "fingerprint": "46b0cdbe5756b1eb8a255c026271f602b59e5156c3d90ea7334394a8aca59434",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.74442,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 28.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 158.546,
+          "end_seconds": 186.546
+        },
+        {
+          "start_seconds": 236.426,
+          "end_seconds": 264.426
+        }
+      ]
+    },
+    {
+      "song_id": "cd26df8ed3710eca",
+      "title": "benny blanco, Halsey & Khalid – Eastside (official video)",
+      "duration_seconds": 174.01034,
+      "vocal_trim_start_seconds": 5.20127,
+      "vocal_trim_end_seconds": 169.04127,
+      "source_sha256": "1de9567372d1b20fd5a0fa5ccff9d78bb63f45bf0ba51556417c87f88da2f7e0",
+      "vocals_sha256": "eee248c006334d7d79d139718ee361083e41ad6541bda3cc6e2b0c7eb94f1121",
+      "fingerprint": "36e25ab5e60061972f479793a0779816d043c5b5f997ae076560c4fad322ec38",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.83171,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 55.124,
+          "end_seconds": 71.124
+        },
+        {
+          "start_seconds": 119.025,
+          "end_seconds": 135.025
+        }
+      ]
+    },
+    {
+      "song_id": "ce0e629f24218b45",
+      "title": "The Verve - Bitter Sweet Symphony",
+      "duration_seconds": 469.733333,
+      "vocal_trim_start_seconds": 71.192381,
+      "vocal_trim_end_seconds": 464.538413,
+      "source_sha256": "f495f2e9eaac56bd3d9a9294e8f1a86f559bfd7c8e2bc8057e70391053fd4b46",
+      "vocals_sha256": "2d0d6ff89299a406a231e7a7f40019abcfc7835360e9a6ff2fb46afce0797b17",
+      "fingerprint": "d1acce1dc9613d08c38fd44d20d0f946c04fb8f0c6f90c9a923c12c41645986e",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.761771,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 111.131,
+          "end_seconds": 131.131
+        },
+        {
+          "start_seconds": 200.992,
+          "end_seconds": 220.992
+        },
+        {
+          "start_seconds": 346.767,
+          "end_seconds": 366.767
+        }
+      ]
+    },
+    {
+      "song_id": "cf52c767c41e80da",
+      "title": "Justin Bieber - Sorry",
+      "duration_seconds": 205.113492,
+      "vocal_trim_start_seconds": 4.365351,
+      "vocal_trim_end_seconds": 192.539864,
+      "source_sha256": "d1f6efc87acfbb5c00f50bfe1dfe068934fcc028e00a77b743cd58014ceb33c0",
+      "vocals_sha256": "2df15df2c807054a80f05dfcf9881b1632e8c6a8e0edd8080883ccaf7ea56108",
+      "fingerprint": "81a7b7450f0bba2bbef5b9074febb17c5cf2d54c346dcd818dd7dc46e7cf478e",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.707881,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 70.264,
+          "end_seconds": 86.264
+        },
+        {
+          "start_seconds": 152.137,
+          "end_seconds": 168.137
+        },
+        {
+          "start_seconds": 176.1,
+          "end_seconds": 192.1
+        }
+      ]
+    },
+    {
+      "song_id": "cf612c3fe57e5656",
+      "title": "twenty one pilots: Heathens (from Suicide Squad: The Album) [OFFICIAL VIDEO]",
+      "duration_seconds": 217.898685,
+      "vocal_trim_start_seconds": 7.151746,
+      "vocal_trim_end_seconds": 206.425397,
+      "source_sha256": "05040debe69921be638a832901377d95769ed28c8e8be59d0caa24de479b211d",
+      "vocals_sha256": "0ba39f6c6267e2367164d6781670f8c7fd3bb474bdcd3e59ebe55ec9664f6838",
+      "fingerprint": "4764f0b498553012e3ba06edb5fd07beb51c947f7b896efc4e00121ff618f75a",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.856899,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 93.019,
+          "end_seconds": 109.019
+        },
+        {
+          "start_seconds": 148.933,
+          "end_seconds": 164.933
+        }
+      ]
+    },
+    {
+      "song_id": "d0e4d93b4b60edce",
+      "title": "Calum Scott - You Are The Reason (Official Video)",
+      "duration_seconds": 204.788413,
+      "vocal_trim_start_seconds": 16.346848,
+      "vocal_trim_end_seconds": 195.651338,
+      "source_sha256": "0f9ff5cc94c22adc76e5890e1017121bd578ce589d6f61ad4bf2f6e9187bf5fe",
+      "vocals_sha256": "1a31bf9d407e952dba34f8321dc37c12836605ffbf11a18623555b448dc4056d",
+      "fingerprint": "64b79d85ef1a3c330627a69de3f8978513e2e959767bb6d482e2e0ae649d0f46",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.707088,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 112.199,
+          "end_seconds": 132.199
+        },
+        {
+          "start_seconds": 154.134,
+          "end_seconds": 174.134
+        }
+      ]
+    },
+    {
+      "song_id": "d3d0477dc779c42e",
+      "title": "The Hanging Tree’ James Newton Howard ft. Jennifer Lawrence (Official Audio)",
+      "duration_seconds": 215.237392,
+      "vocal_trim_start_seconds": 0.603719,
+      "vocal_trim_end_seconds": 205.960998,
+      "source_sha256": "0569d6637b50b41bb512abf0939fb3144ff46b3e87731f0faf64f124c13ae1fa",
+      "vocals_sha256": "7f4db49adcffdcf192a6bb917812d29c95d2ef169c6d5e23db7dc100eb4895d3",
+      "fingerprint": "7538445b41b3fb9416d9ae33e8d4063f82bdf3e51c5ccb9344ad365450c1a6e0",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.80538,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 2.601,
+          "end_seconds": 22.601
+        },
+        {
+          "start_seconds": 24.567,
+          "end_seconds": 44.567
+        },
+        {
+          "start_seconds": 46.533,
+          "end_seconds": 66.533
+        }
+      ]
+    },
+    {
+      "song_id": "d72ef45bbe6136dd",
+      "title": "Lady Gaga - Poker Face",
+      "duration_seconds": 213.611995,
+      "vocal_trim_start_seconds": 7.523265,
+      "vocal_trim_end_seconds": 211.115828,
+      "source_sha256": "c0e9debb774ccaca1c5f97edbc8a5b6c6e99f61b675453126005e2f73ddb884a",
+      "vocals_sha256": "95b9314e2d688c23988bab9369077aa953a288e43d36b4c2c60eb8a864633789",
+      "fingerprint": "47e5d30fa57674a3c8820410214739556fbb1c724d67bc827a66a997b1aaefdf",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 4
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 56.0,
+          "end_seconds": 81.0
+        },
+        {
+          "start_seconds": 112.0,
+          "end_seconds": 137.0
+        },
+        {
+          "start_seconds": 161.0,
+          "end_seconds": 213.6
+        }
+      ]
+    },
+    {
+      "song_id": "dadf4fe765ab6c5f",
+      "title": "Meghan Trainor - NO (Official Video)",
+      "duration_seconds": 222.354308,
+      "vocal_trim_start_seconds": 1.764717,
+      "vocal_trim_end_seconds": 219.892971,
+      "source_sha256": "04f7a0da77751e72890d74488606dc79694c0b32b1befcfa32a3f6c98e7a76a1",
+      "vocals_sha256": "970d12c53d4d784b123d96cdea094a818ccdfd2a3adc7b9a0d51e249f4b05481",
+      "fingerprint": "d1ce68f6f247a647e399f9b02a3b7bb9f4dfb229a661ee5d5cde3e03a1111431",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.728594,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 29.722,
+          "end_seconds": 53.722
+        },
+        {
+          "start_seconds": 121.58,
+          "end_seconds": 145.58
+        },
+        {
+          "start_seconds": 185.481,
+          "end_seconds": 209.481
+        }
+      ]
+    },
+    {
+      "song_id": "dcb7d60a021b8367",
+      "title": "TONES AND I - DANCE MONKEY (OFFICIAL VIDEO)",
+      "duration_seconds": 236.413991,
+      "vocal_trim_start_seconds": 3.808073,
+      "vocal_trim_end_seconds": 236.146939,
+      "source_sha256": "d132463fee98d2f1399e87f8a09865663d6f8d2a7a50c126711e49793b53c1b2",
+      "vocals_sha256": "4f1632f02283367e70983a3ee97a27f72e96ec1a16b7553b04ac7cd3cd52d263",
+      "fingerprint": "87ba55137320f0de30eb8390ab5761ecdafce1538bcca974facbc4b4f8ce81e3",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.710126,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 65.712,
+          "end_seconds": 81.712
+        },
+        {
+          "start_seconds": 109.645,
+          "end_seconds": 125.645
+        },
+        {
+          "start_seconds": 133.608,
+          "end_seconds": 149.608
+        },
+        {
+          "start_seconds": 167.555,
+          "end_seconds": 183.555
+        }
+      ]
+    },
+    {
+      "song_id": "df58dcb218251f87",
+      "title": "Dua Lipa - Levitating",
+      "duration_seconds": 209.76907,
+      "vocal_trim_start_seconds": 0.2322,
+      "vocal_trim_end_seconds": 201.177687,
+      "source_sha256": "8560013bfa4e13e45be38cf2b527c2d142a09ba8e264018170e3c15d0f860eac",
+      "vocals_sha256": "132b1d37ed5dc570d973d5bb2698110cdd0922469bef7b48e43334c3c90828e8",
+      "fingerprint": "2d001001515c15c308ed0cfadc8da91fd5ee11229345fc52ba2df895801d0763",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.955347,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 108.066,
+          "end_seconds": 124.066
+        },
+        {
+          "start_seconds": 163.979,
+          "end_seconds": 179.979
+        }
+      ]
+    },
+    {
+      "song_id": "e1f291141a47a088",
+      "title": "Ed Sheeran - Perfect (Official Music Video)",
+      "duration_seconds": 281.832993,
+      "vocal_trim_start_seconds": 21.130159,
+      "vocal_trim_end_seconds": 264.986122,
+      "source_sha256": "673d4c97dd52af3083b68d0197045833ab57733909960170b931506afad7720d",
+      "vocals_sha256": "a43882d8a6ec9325516c9f91c9ab0bee44633f3820c0494a848df42cc521e224",
+      "fingerprint": "fc0763a1adeb80569068b86ab0108b589f54cf104126bba7345d1c2f85168e8c",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.729377,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 79.041,
+          "end_seconds": 95.041
+        },
+        {
+          "start_seconds": 222.819,
+          "end_seconds": 238.819
+        }
+      ]
+    },
+    {
+      "song_id": "e20d3d8d88b2b1ab",
+      "title": "David Guetta feat Anne-Marie - Don't Leave Me Alone (Official Video)",
+      "duration_seconds": 188.373333,
+      "vocal_trim_start_seconds": 2.786395,
+      "vocal_trim_end_seconds": 178.840091,
+      "source_sha256": "79c4d8259d77ec06f0002bcdea6026449041a5d63ea2a82a03a45b754626fa95",
+      "vocals_sha256": "6dd9a24792e046cfc5bc87b9d73a12ea61b6a255df3c4bdabf1dfded97c6e10b",
+      "fingerprint": "c8297337df797de3a736db29fa46a50aaefd534ae99e20a87b5187704e6e6cb4",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.842842,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 34.737,
+          "end_seconds": 58.737
+        },
+        {
+          "start_seconds": 94.645,
+          "end_seconds": 118.645
+        }
+      ]
+    },
+    {
+      "song_id": "e221ef0434472a07",
+      "title": "Ariana Grande - One Last Time",
+      "duration_seconds": 198.890544,
+      "vocal_trim_start_seconds": 0.928798,
+      "vocal_trim_end_seconds": 193.143583,
+      "source_sha256": "50373a7c3cb1411e13d66e149284ccd444dd90483ea6c465693940d12336b141",
+      "vocals_sha256": "c91059456a65810433ca08f0f500ea05396351d8cc47affcb2aed597c6c22ae5",
+      "fingerprint": "3cdc8cbda6dc7702a8453ceef03b9ddd1e1c43ba6d8abed861f2eea2eb365c44",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.749777,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 32.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 96.781,
+          "end_seconds": 128.781
+        },
+        {
+          "start_seconds": 150.698,
+          "end_seconds": 182.698
+        }
+      ]
+    },
+    {
+      "song_id": "e2abe3ae051c3cfd",
+      "title": "Ariana Grande - Dangerous Woman (Official Video)",
+      "duration_seconds": 235.670952,
+      "vocal_trim_start_seconds": 10.959819,
+      "vocal_trim_end_seconds": 229.413152,
+      "source_sha256": "05ff58caac4a902a3c621f1b1cce65ab86ab708e7ee4d0accfb123956fb9880c",
+      "vocals_sha256": "a41f89c508e066ea50bf1f5383db843daa0ac99d7a26b5f3b8f18b08250bbf83",
+      "fingerprint": "3b41885218ac50eb1a672ae00f37fdfa1d61eb10960f027ecaebe056ed12f1cf",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.829137,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 28.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 30.929,
+          "end_seconds": 58.929
+        },
+        {
+          "start_seconds": 84.846,
+          "end_seconds": 112.846
+        }
+      ]
+    },
+    {
+      "song_id": "e313ec5db03a15e7",
+      "title": "Taylor Swift - Blank Space",
+      "duration_seconds": 272.428141,
+      "vocal_trim_start_seconds": 7.291066,
+      "vocal_trim_end_seconds": 251.239909,
+      "source_sha256": "613b91c026007f5074b764cd75ecb193e7e990ee36d9d19fba6adcbbbfad791b",
+      "vocals_sha256": "7d1ee9924ec00e7dad10df16673fc1b6498ba8003d93c6709e3fdfc6e78a1f48",
+      "fingerprint": "ad5118a9e62229590ad54e61ea41430cff54b4a5e2bf1b46f945deccb20beb2d",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.776459,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 135.094,
+          "end_seconds": 151.094
+        },
+        {
+          "start_seconds": 155.063,
+          "end_seconds": 171.063
+        },
+        {
+          "start_seconds": 195.001,
+          "end_seconds": 211.001
+        }
+      ]
+    },
+    {
+      "song_id": "e338e04b67f34b2a",
+      "title": "Khalid - Talk (Official Video)",
+      "duration_seconds": 193.039116,
+      "vocal_trim_start_seconds": 23.173515,
+      "vocal_trim_end_seconds": 179.629569,
+      "source_sha256": "1b6b6984bd117088b5550a1152d2a824c5f756601ce03b985dd1bd68ae564564",
+      "vocals_sha256": "0d913a5cbfd5a39e5299a7aedaac59b3e0b7f3bbc04caf721a3dd96c8b8b1fe2",
+      "fingerprint": "16e3f14b31c24875e1590487516acd26a36b92d5d303323097c297ce4bbd7b90",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.66231,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 25.17,
+          "end_seconds": 49.17
+        },
+        {
+          "start_seconds": 103.05,
+          "end_seconds": 127.05
+        },
+        {
+          "start_seconds": 131.007,
+          "end_seconds": 155.007
+        }
+      ]
+    },
+    {
+      "song_id": "e427891242803ddc",
+      "title": "Ariana Grande - Side To Side",
+      "duration_seconds": 237.923288,
+      "vocal_trim_start_seconds": 0.04644,
+      "vocal_trim_end_seconds": 221.471927,
+      "source_sha256": "0ab9578fc501e173f124cb6dbe3a8d25f0ee79641b8af7338e57db315091cd2c",
+      "vocals_sha256": "eb8f1a6b84b983ed528864e8df1b96b3b4b7719df0d82f12cae4d711c5d519e2",
+      "fingerprint": "d84538766d7d48e32b015329a615d899f186fb1c4aba9446f8178190437dc648",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.807115,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 28.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 115.868,
+          "end_seconds": 143.868
+        },
+        {
+          "start_seconds": 189.753,
+          "end_seconds": 217.753
+        }
+      ]
+    },
+    {
+      "song_id": "e495af8411b31983",
+      "title": "Sam Smith, Normani - Dancing With A Stranger (Official Music Video)",
+      "duration_seconds": 195.73263,
+      "vocal_trim_start_seconds": 23.498594,
+      "vocal_trim_end_seconds": 191.053787,
+      "source_sha256": "b8d2098badc6251c27fb7366dc631ec3d4e5d12dba01ea3329e5bfd2c600f534",
+      "vocals_sha256": "49297b5a8ee22081d1d97cbc9967c425b83d87d93e26fc481864c7868c4b63ab",
+      "fingerprint": "f1a008a74529cdb0be260e45916ee0cdd1480fefd58456808a83433c35e73d85",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.786443,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 69.428,
+          "end_seconds": 89.428
+        },
+        {
+          "start_seconds": 125.341,
+          "end_seconds": 145.341
+        },
+        {
+          "start_seconds": 153.298,
+          "end_seconds": 173.298
+        }
+      ]
+    },
+    {
+      "song_id": "e6502f449abd4b49",
+      "title": "Marshmello & Anne-Marie - FRIENDS (Music Video) *OFFICIAL FRIENDZONE ANTHEM*",
+      "duration_seconds": 231.166259,
+      "vocal_trim_start_seconds": 0.325079,
+      "vocal_trim_end_seconds": 222.540045,
+      "source_sha256": "a5cdcc79fc5592afe560e67bc5e844858b27d34c8f6902d49075c8d6bffd60bb",
+      "vocals_sha256": "ef80a9ef0bb0b1b4eaf57b901231830ca318c3c68ee376d7a96153cfb06b84b2",
+      "fingerprint": "2c62838af31e7612dab01163bd681450e4102558a804a40fc7b10d1a42a666d4",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 28.0,
+        "occurrences": 4
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 28.0,
+          "end_seconds": 70.0
+        },
+        {
+          "start_seconds": 89.0,
+          "end_seconds": 131.0
+        },
+        {
+          "start_seconds": 150.0,
+          "end_seconds": 170.0
+        }
+      ]
+    },
+    {
+      "song_id": "e6fe274df9d1b84f",
+      "title": "Post Malone, Swae Lee - Sunflower",
+      "duration_seconds": 122.581338,
+      "vocal_trim_start_seconds": 0.0,
+      "vocal_trim_end_seconds": 113.638458,
+      "source_sha256": "b4f0a4dce87b1e8301e2924aa387410066e17a5f3247629eb49fa1dc79dbd69b",
+      "vocals_sha256": "4fb685d550f8e9f1d9330212b8e7e809c6225fedd7e81117bf2c2d9bd6a8334c",
+      "fingerprint": "92bb2c3e4d9a243540b8edbf0fb290709333d8310335cb47d6fad7d277e1d194",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.665353,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 3
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 35.944,
+          "end_seconds": 55.944
+        },
+        {
+          "start_seconds": 57.911,
+          "end_seconds": 77.911
+        },
+        {
+          "start_seconds": 89.861,
+          "end_seconds": 109.861
+        }
+      ]
+    },
+    {
+      "song_id": "e734e7f38e373b27",
+      "title": "Eurythmics, Annie Lennox, Dave Stewart - Sweet Dreams (Are Made Of This) (Official Video)",
+      "duration_seconds": 214.006735,
+      "vocal_trim_start_seconds": 8.034104,
+      "vocal_trim_end_seconds": 210.512109,
+      "source_sha256": "99ac9e6201e1ed898706eb8b9ba5abb266686c869a89eaccbf04846d7cc3d201",
+      "vocals_sha256": "e07e8d8c9e67635e29bc8ee53df85ee6ed394d955713ce43df5d252be3c04d49",
+      "fingerprint": "adeb78b6e73135edfc32aa8bc7736b6828596fa1065443a4efed110de4a66590",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.808203,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 147.818,
+          "end_seconds": 163.818
+        },
+        {
+          "start_seconds": 193.747,
+          "end_seconds": 209.747
+        }
+      ]
+    },
+    {
+      "song_id": "e758c44149ef2c7e",
+      "title": "Ariana Grande - God is a woman (Official Video)",
+      "duration_seconds": 241.533991,
+      "vocal_trim_start_seconds": 0.696599,
+      "vocal_trim_end_seconds": 227.044717,
+      "source_sha256": "23aa2633ae7dba4979c87320c696f60db44d2360e0a9730721dd7b0332454352",
+      "vocals_sha256": "87da72b5f7e3d895ad2503da5b5c98098cc748ec5815d0338291558fdf453f7b",
+      "fingerprint": "2fcf252931c28bae7a988d7a2e5c7013ab5155b9b90cc4911b1ecb04974c68dc",
+      "method": "user_reviewed_override",
+      "confidence": 1.0,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": "accepted_by_user_2026-08-30",
+      "choruses": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 29.0
+        },
+        {
+          "start_seconds": 68.0,
+          "end_seconds": 95.0
+        },
+        {
+          "start_seconds": 137.0,
+          "end_seconds": 190.0
+        }
+      ]
+    },
+    {
+      "song_id": "e9e9b09b0e5cca4c",
+      "title": "Coldplay - Viva La Vida",
+      "duration_seconds": 242.10288,
+      "vocal_trim_start_seconds": 13.514014,
+      "vocal_trim_end_seconds": 239.304853,
+      "source_sha256": "bb344dc0b88f3bddcf394511f1fa89459a517ea6b5cf4e55fec15816568f1d5a",
+      "vocals_sha256": "d3d20bd6911ca644fdf2b45eb2bd73a8f835682d6287bfae7c51541606a438a7",
+      "fingerprint": "44d0369f848582c3e180ffe3306d2fb29b24c5d5ba225d96fae5a7c4b665c733",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.785536,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 147.307,
+          "end_seconds": 163.307
+        },
+        {
+          "start_seconds": 203.221,
+          "end_seconds": 219.221
+        }
+      ]
+    },
+    {
+      "song_id": "ea870e2b360e2512",
+      "title": "Marshmello ft. Bastille - Happier",
+      "duration_seconds": 233.244444,
+      "vocal_trim_start_seconds": 0.2322,
+      "vocal_trim_end_seconds": 231.735147,
+      "source_sha256": "d794514c12d2116fb6391844164cefb26f224077339e48fe1856ccec2e3d8613",
+      "vocals_sha256": "82b963c547bed3ed8d0bcf8d4b7d3232b3536d3f7fac731daca7cba88aba6a09",
+      "fingerprint": "8442e83b71090ed77f1cb0f8545d668be63f74d5ca30c5b3a2d90599cf9d31b1",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.681612,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 54.149,
+          "end_seconds": 74.149
+        },
+        {
+          "start_seconds": 102.075,
+          "end_seconds": 122.075
+        },
+        {
+          "start_seconds": 138.019,
+          "end_seconds": 158.019
+        },
+        {
+          "start_seconds": 189.939,
+          "end_seconds": 209.939
+        }
+      ]
+    },
+    {
+      "song_id": "f1608ba400be14a3",
+      "title": "The Weeknd - Blinding Lights (Official Video)",
+      "duration_seconds": 262.51322,
+      "vocal_trim_start_seconds": 6.222948,
+      "vocal_trim_end_seconds": 235.26458,
+      "source_sha256": "1e9414f29aff14473cda77d26566f195b5d05814522573fd8382a45daef8ec48",
+      "vocals_sha256": "d4c25bf423d814554e18059c011b5c0b044048d1720f57595fbb3128a56ef1f9",
+      "fingerprint": "a0330ea7c5d7b49282afec2b701c50366f0bb6d65ecab5171f50f9ac4c70d93b",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.780955,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 84.103,
+          "end_seconds": 100.103
+        },
+        {
+          "start_seconds": 153.995,
+          "end_seconds": 169.995
+        }
+      ]
+    },
+    {
+      "song_id": "f482c164208df979",
+      "title": "Lady Gaga, Bradley Cooper - Shallow",
+      "duration_seconds": 216.192018,
+      "vocal_trim_start_seconds": 0.743039,
+      "vocal_trim_end_seconds": 204.89288,
+      "source_sha256": "0abb6cc2c4bea1d585b6e65a5d053ca6558f6ff943e8752a1b45ace7219daa35",
+      "vocals_sha256": "505ef7b33f2a919e8e2d5aee3a7e33c9ab18c36b21a1e8e1cebab740c331c62e",
+      "fingerprint": "9b75eeba27737fedfb24d1ea6e0bd056570ee8e9f626df1f955e5223093f6b1d",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.816084,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 112.57,
+          "end_seconds": 132.57
+        },
+        {
+          "start_seconds": 172.478,
+          "end_seconds": 192.478
+        }
+      ]
+    },
+    {
+      "song_id": "f4a41129183ce1ee",
+      "title": "Dua Lipa - Don't Start Now",
+      "duration_seconds": 181.104966,
+      "vocal_trim_start_seconds": 3.622313,
+      "vocal_trim_end_seconds": 176.007256,
+      "source_sha256": "2f5b3d5b67fbe8e8ff0e1c656726a5c0aa93729d3ac7825564ae053fc559e7ca",
+      "vocals_sha256": "54b2abda6b36b4f1d50007cc9acbbb39a719f8c28892d188a6c2c2e7aca55f57",
+      "fingerprint": "95ad326217322258edc3f7b4b9997baad9ba75a788941e3e24046268a58ad475",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.725301,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 31.579,
+          "end_seconds": 51.579
+        },
+        {
+          "start_seconds": 85.496,
+          "end_seconds": 105.496
+        }
+      ]
+    },
+    {
+      "song_id": "f4f6e6d1f2f53cc7",
+      "title": "Mike Perry - The Ocean ft. Shy Martin",
+      "duration_seconds": 184.16907,
+      "vocal_trim_start_seconds": 13.931973,
+      "vocal_trim_end_seconds": 167.740952,
+      "source_sha256": "1fb92868f42c3af98bf845222062d426121d6c9dc2103656119f4706f04ea0d1",
+      "vocals_sha256": "f59783e73798cee777d002caba282f9e29996c5536d7858a5ba667c606ea40de",
+      "fingerprint": "67f830370d9ad9415da9b10c1aeda0cc405abcd1c258330fc1477fa4ab7f95d5",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.747462,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 33.901,
+          "end_seconds": 49.901
+        },
+        {
+          "start_seconds": 89.815,
+          "end_seconds": 105.815
+        }
+      ]
+    },
+    {
+      "song_id": "f7a1e5bbb15a0c40",
+      "title": "One Direction - Drag Me Down (Official Video)",
+      "duration_seconds": 191.738798,
+      "vocal_trim_start_seconds": 6.083628,
+      "vocal_trim_end_seconds": 191.425306,
+      "source_sha256": "28be94ce8eedb428945d5cf0b06ed4a8ac9cc2dbb7ddc552a1044d61f6102ced",
+      "vocals_sha256": "ed1ed18b9cda2b98ab00799304b938c69d27b3ad8137f320ebbc04cb363f07f4",
+      "fingerprint": "5430d7034236fded34dfe5f1389b10f3227c19c52eaceed2a081b55a27658c2e",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.722373,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 101.936,
+          "end_seconds": 125.936
+        },
+        {
+          "start_seconds": 143.871,
+          "end_seconds": 167.871
+        }
+      ]
+    },
+    {
+      "song_id": "fb4b4998dd51aa76",
+      "title": "Selena Gomez - Lose You To Love Me",
+      "duration_seconds": 206.924649,
+      "vocal_trim_start_seconds": 10.634739,
+      "vocal_trim_end_seconds": 198.484172,
+      "source_sha256": "218f867fd0db90465ce078528bf3d30e55fbb7fa656bd6377cdf457ca6dae8d4",
+      "vocals_sha256": "9a5251e6335765d54d436f9dd076c4a422b923740d8bbbb072652457d9adbdd5",
+      "fingerprint": "61196ff491309981bc206c4d719c4510e222491b07987c971d0253eb6ad335bc",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.942492,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 24.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 54.567,
+          "end_seconds": 78.567
+        },
+        {
+          "start_seconds": 110.481,
+          "end_seconds": 134.481
+        }
+      ]
+    },
+    {
+      "song_id": "fced8844096a3270",
+      "title": "Labrinth - Jealous (Official Video)",
+      "duration_seconds": 286.162744,
+      "vocal_trim_start_seconds": 22.569796,
+      "vocal_trim_end_seconds": 275.760181,
+      "source_sha256": "717120f7f9eb9e17f8cd3158be03bd456e66e223780af8627a9852bd2b192f00",
+      "vocals_sha256": "71874cff2dbe5aa9b2f3370f38299851006b8644f2956e434de98677b5a1e2f3",
+      "fingerprint": "0cc2a7a5b3d519dd45893be8f882e7dbc361c4fe82b67d327217b3636e783c8e",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.72416,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 72.493,
+          "end_seconds": 88.493
+        },
+        {
+          "start_seconds": 150.372,
+          "end_seconds": 166.372
+        }
+      ]
+    },
+    {
+      "song_id": "fd7aa18fdda2bc7a",
+      "title": "Billie Eilish - everything i wanted",
+      "duration_seconds": 287.544966,
+      "vocal_trim_start_seconds": 26.656508,
+      "vocal_trim_end_seconds": 247.664036,
+      "source_sha256": "e8aeef0779f7e36f68ad3ea6b1502770f84dc17753071788ac11373e45531876",
+      "vocals_sha256": "c16253194235e3171e04abf205008038682e74fcf5c1d7eb395b52dfe4d7ac89",
+      "fingerprint": "8371c741ecba4d1ba470c59da987ef165a1a52ee121bcc7749ddb9f1c560fe6e",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.729914,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 16.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 126.502,
+          "end_seconds": 142.502
+        },
+        {
+          "start_seconds": 166.441,
+          "end_seconds": 182.441
+        }
+      ]
+    },
+    {
+      "song_id": "fe484327ceeee479",
+      "title": "Sia - The Greatest (Official Video)",
+      "duration_seconds": 351.526916,
+      "vocal_trim_start_seconds": 78.576327,
+      "vocal_trim_end_seconds": 268.515556,
+      "source_sha256": "21056cd62edb2189708bfa0740e85d9071503f5c0fff674a10c45bafeddfede4",
+      "vocals_sha256": "98476476edb634b2275dacbeff5926bef9e83d8367296927dc053bc85f606014",
+      "fingerprint": "0df5f5a49767893b8555b79df6d623e2316e26995ec8f0a053ec264d66cd3eba",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.853907,
+      "detector_details": {
+        "status": "detected_high_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 2
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 100.542,
+          "end_seconds": 120.542
+        },
+        {
+          "start_seconds": 150.465,
+          "end_seconds": 170.465
+        }
+      ]
+    },
+    {
+      "song_id": "ffad5d0b1291e86b",
+      "title": "Taylor Swift - Wildest Dreams",
+      "duration_seconds": 234.672993,
+      "vocal_trim_start_seconds": 13.235374,
+      "vocal_trim_end_seconds": 213.809342,
+      "source_sha256": "3b515ee7cd05aba2dbb5a69afd210e2e1e34f7ada4919281c6c8931181e65c29",
+      "vocals_sha256": "0fcd4898bbb1169d20655ec1bf7bba4ecd9c40d154e6180c3ff94745adc2488d",
+      "fingerprint": "92fcc9fc7dcfd1aba5e4b8012f59d493a7133e0db7f136b255aba9821d7ad98e",
+      "method": "conservative_repeated_vocal_chroma",
+      "confidence": 0.691103,
+      "detector_details": {
+        "status": "detected_low_confidence",
+        "segment_seconds": 20.0,
+        "occurrences": 4
+      },
+      "review": null,
+      "choruses": [
+        {
+          "start_seconds": 45.186,
+          "end_seconds": 65.186
+        },
+        {
+          "start_seconds": 107.09,
+          "end_seconds": 127.09
+        },
+        {
+          "start_seconds": 155.016,
+          "end_seconds": 175.016
+        },
+        {
+          "start_seconds": 190.961,
+          "end_seconds": 210.961
+        }
+      ]
+    }
+  ]
+}

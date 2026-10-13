@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "pipeline": "demucs_vocal_stem_ingestion",
+  "catalog_config": "configs/catalog.json",
+  "output_root": "artifacts/vocal_stems/htdemucs",
+  "manifest_path": "artifacts/vocal_stems/htdemucs/manifest.json",
+  "separator": {
+    "model_name": "htdemucs",
+    "model_weight_path": "models/demucs/955717e8-8726e21a.th",
+    "model_weight_sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4",
+    "demucs_version": "4.0.1",
+    "device": "cpu",
+    "stem": "vocals",
+    "shifts": 1,
+    "overlap": 0.25,
+    "segment_seconds": null,
+    "jobs": 0,
+    "output_format": "wav"
+  }
+}

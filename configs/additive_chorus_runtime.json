@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "enabled": true,
+  "fusion_enabled": false,
+  "backend": "bounded_additive_chorus_points",
+  "base_runtime": "configs/vocal_neural_runtime.json",
+  "base_runtime_sha256": "bf8ce082839482b7bef330ca394e63bb29ff007608c82427bf7ec235ed4fadcc",
+  "policy": "configs/additive_chorus_policy.json",
+  "policy_sha256": "37c1542de8b44e651151bec5f4319963ef2442bed172543ffbe6c1674f31d5f9"
+}

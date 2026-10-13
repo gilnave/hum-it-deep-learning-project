@@ -1,0 +1,65 @@
+# Pairwise hum-to-vocal training across the verified Demucs vocal stems.
+# Only public CHAD train queries update weights. Public CHAD validation selects
+# the checkpoint; CHAD test queries and personal recordings are excluded.
+data:
+  catalog_config: configs/catalog.json
+  sequence_directory: artifacts/symbolic/chad_sequences
+  chad_audio_root: data/raw/chad/fragments
+  vocal_manifest: artifacts/vocal_stems/htdemucs/manifest.json
+  backend_config: configs/external_dev_vocal_windows_12_max.json
+  vocal_index_cache: artifacts/symbolic/vocal_index_cache
+  feature_cache: artifacts/symbolic/query_cache
+
+# Audited before training. These immutable counts stop partial catalogs,
+# incomplete manifests, and changed CHAD selections from silently proceeding.
+contract:
+  expected_split_songs:
+    train: 93
+    validation: 19
+    test: 23
+  expected_queries:
+    train: 1391
+    validation: 302
+  expected_windows_per_song: 24
+
+# Keep the 64-song experiment's initial data mining and network architecture.
+# Every training hum sees its target and 11 strongest alignment negatives;
+# validation scores every candidate in the catalog.
+dataset:
+  training_candidates: 12
+  windows_per_candidate: 4
+  query_crop_fractions: [1.0, 0.75, 0.5]
+
+model:
+  input_channels: 12
+  hidden_channels: 32
+  token_channels: 24
+  interaction_channels: 8
+  head_channels: 32
+  dropout: 0.10
+  window_temperature: 0.05
+  raw_similarity_logit_scale: 5.0
+  key_proximity_logit_bonus: 0.15
+
+training:
+  epochs: 30
+  batch_size: 6
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  label_smoothing: 0.03
+  patience: 7
+  min_delta: 0.001
+  seed: 42
+  device: cpu
+  cpu_threads: 8
+  resume: true
+
+# Manual comparison deliberately keeps the decisions separate. No fusion or
+# blend weight is selected until fresh user recordings provide evidence.
+comparison:
+  neural_ranking: unblended_pairwise_model
+  alignment_ranking: circular_key_local_window
+  fusion_enabled: false
+
+output:
+  directory: results

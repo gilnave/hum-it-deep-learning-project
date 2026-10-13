@@ -1,0 +1,71 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and virtual environments
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch files and failed patch artifacts
+tmp/
+*.tmp
+*.part
+*.orig
+*.rej
+*.patch
+
+# Downloaded datasets and private/personal audio
+data/raw/
+data/processed/
+personal_songs/
+test_songs/
+catalog/
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.wav
+*.mp4
+*.webm
+
+# Generated model and catalog binaries
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Downloaded third-party source/checkpoints and generated experiment artifacts
+third_party/
+artifacts/
+
+# Keep the small, reviewable artifacts and final checkpoint used by the paper.
+!artifacts/
+artifacts/*
+!artifacts/symbolic/
+artifacts/symbolic/*
+!artifacts/symbolic/choruses.json
+!artifacts/vocal_stems/
+artifacts/vocal_stems/*
+!artifacts/vocal_stems/htdemucs/
+artifacts/vocal_stems/htdemucs/*
+!artifacts/vocal_stems/htdemucs/manifest.json
+!results/best.pt

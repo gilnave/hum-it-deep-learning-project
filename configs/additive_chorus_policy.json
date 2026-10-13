@@ -1,0 +1,28 @@
+{
+  "format_version": 1,
+  "name": "bounded_additive_chorus_points_v1",
+  "selection_split": "thirty_personal_design_recordings",
+  "heldout_ten_opened_before_initial_selection": false,
+  "final_revision_after_initial_holdout_aggregate": true,
+  "fresh_untouched_test_remaining": false,
+  "score_multiplication_enabled": false,
+  "negative_chorus_points_enabled": false,
+  "development_selection": "results/development_selection.json",
+  "development_selection_sha256": "e6300bef03df752e9bccf4089f4cfbd15af85ade16bb3ee1012173d29829a550",
+  "priority_windows_per_candidate": 6,
+  "points": {
+    "top_one_points": 3.0,
+    "top_three_points": 3.0,
+    "top_ten_points": 3.0,
+    "top_twenty_points": 1.5,
+    "full_coverage_threshold": 0.95,
+    "partial_coverage_threshold": 0.75,
+    "full_coverage_points": 4.0,
+    "partial_coverage_points": 2.0,
+    "support_quantile": 0.65,
+    "support_margin_standard_deviations": 1.5,
+    "repeated_occurrence_points": 0.5,
+    "maximum_repeated_occurrences": 2,
+    "all_occurrences_points": 0.5
+  }
+}

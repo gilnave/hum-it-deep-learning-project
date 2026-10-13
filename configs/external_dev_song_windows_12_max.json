@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "backend": "full_song_window_chroma",
+  "selection_split": "external_development_only",
+  "settings": {
+    "sample_rate": 11025,
+    "hop_length": 512,
+    "n_fft": 2048,
+    "trim_top_db": 35.0,
+    "comparison_frames": 32,
+    "chroma_kind": "stft",
+    "transposition_invariant": true,
+    "window_seconds": [12.0],
+    "windows_per_duration": 24,
+    "query_crop_fractions": [1.0, 0.75, 0.5],
+    "query_aggregation_top_k": 1,
+    "song_aggregation_top_k": 1
+  },
+  "selection_protocol": {
+    "primary_metric": "macro_song_mrr",
+    "tie_breakers": ["macro_song_top3", "macro_song_top1"],
+    "minimum_songs_improved": 3,
+    "equal_windows_per_song": true,
+    "test_split_used": false
+  }
+}

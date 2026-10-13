@@ -1,0 +1,14 @@
+{
+  "format_version": 1,
+  "name": "chorus_restricted_melody_priority_v2",
+  "selection_basis": "explicit_user_product_instruction",
+  "selected_by_validation_metrics": false,
+  "fixed_before_requested_personal_sample_recognition": true,
+  "fixed_at": "2026-08-30",
+  "reward_units": "within-query candidate-score standard deviations",
+  "neural_chorus_reward": 4.0,
+  "alignment_chorus_reward": 4.0,
+  "chorus_padding_seconds": 2.0,
+  "minimum_matched_window_coverage": 0.5,
+  "description": "For every candidate, first find its best melodic match restricted to documented chorus windows. Standardize that chorus-restricted melody score across candidates and weight it four times as strongly as the global candidate score. Merely landing inside a chorus earns nothing by itself. The neural and alignment rankings remain independent."
+}
